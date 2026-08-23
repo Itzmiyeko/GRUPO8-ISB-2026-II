@@ -66,6 +66,6 @@ git remote add origin https://github.com/usuario/nombre-repositorio.git
 Las ramas, también llamadas branchs, permiten que varias personas trabajen simultáneamente sobre un mismo proyecto sin interferir entre sí. Se recomienda que el líder del equipo sea quien decida qué versión final se integrará a la rama principal, evitando así tener que lidiar con conflictos de fusión (merge conflicts) causados por modificaciones simultáneas sobre las mismas líneas de código.
 
 * **Extensión "Markdown Preview Enhanced":**
-* se recomienda instalar esta extensión, ya que permite visualizar una vista previa de cómo se verá el documento renderizado antes de subirlo al repositorio. Dicha vista previa puede activarse mediante el atajo de teclado Ctrl + k, luego se sueltan ambas teclas e inmediatamente después presionar la tecla y.
+Se recomienda instalar esta extensión, ya que permite visualizar una vista previa de cómo se verá el documento renderizado antes de subirlo al repositorio. Dicha vista previa puede activarse mediante el atajo de teclado Ctrl + k, luego se sueltan ambas teclas e inmediatamente después presionar la tecla y.
 
 Lo que podemos decir es que Visual Studio Code funciona como el intermediario visual que resume la ejecución de comandos por Git, , sin eliminar la necesidad de comprender los conceptos subyacentes, los cuales resultan muy esencial e ineludible para un uso eficaz en proyectos de mayor complejidad.
