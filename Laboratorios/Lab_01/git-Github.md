@@ -9,7 +9,7 @@ Es un sistema de control desarrollado inicialmente por Linus Torvalds en 2005. E
 - Trabajar localmente (en el disco C:), sin necesidad del acceso a Internet.
 
 ### **Github** 
-Es una plataforma de alejamiento en la nube que usa Git como motor subyacente, incluida en ella una serie de capas de servicios adicionales: 
+Es una plataforma de alojamiento en la nube que usa Git como motor subyacente, incluida en ella una serie de capas de servicios adicionales: 
 - Repositorios remotos accesibles.
 - Tools de gestión de proyectos, como cronogramas, tableros Kanban, milestones, etc.
 - Revisión de códigos
