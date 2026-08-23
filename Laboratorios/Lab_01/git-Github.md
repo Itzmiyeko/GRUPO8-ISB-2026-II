@@ -11,7 +11,7 @@ Es un sistema de control desarrollado inicialmente por Linus Torvalds en 2005. E
 ### **Github** 
 Es una plataforma de alejamiento en la nube que usa Git como motor subyacente, incluida en ella una serie de capas de servicios adicionales: 
 - Repositorios remotos accesibles.
-- Tools de gestión de proyectos, como cronogramas, tableros Kanban, milestones, etc)
+- Tools de gestión de proyectos, como cronogramas, tableros Kanban, milestones, etc.
 - Revisión de códigos
 - Integración de flujos de automatización
 - Controles de accesos y permisos a repositorios.
