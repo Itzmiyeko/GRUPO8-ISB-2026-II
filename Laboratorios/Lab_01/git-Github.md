@@ -25,6 +25,7 @@ Los comandos fundamentales que conforman el flujo de trabajo por medio de Git pa
 * **git commit:** representa el último guardado en el repositorio local.
 * **git push:** sube los cambios confirmados (commits) desde el repositorio local hacia GitHub, es decir, traslada la información de local a remoto.
 * **git pull:** descarga los cambios que se encuentren en línea, ya sea porque fueron subidos desde otro equipo propio o por otros colaboradores del proyecto, e integra dichos cambios al entorno local.
+* **git status:** muestra el estado actual de los archivos del repositorio, mostrando cuales líneas han sido editadas, cuáles están en el área de preparación y cuáles aún no han sido registrados. Su propósito es verificar el estado del proyecto antes de realizar un commit.
 
 ## 3. Manejo desde VS Code
 Visual Studio Code permite ejecutar todo este flujo de trabajo de manera visual, sin necesidad de escribir los comandos manualmente en la terminal, a través del panel de "Control de código fuente". El orden recomendado de trabajo es el siguiente:
