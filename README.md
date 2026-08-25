@@ -1,4 +1,5 @@
 # Introducción a Señales Biomédicas 2026-II 
+
 <p align="center">
 	<img src="https://github.com/user-attachments/assets/fb6e0bef-c4fb-41cc-a8d2-98b50c67792e" alt="GIF del proyecto">
 </p>
