@@ -174,9 +174,12 @@ Visual Studio Code permite gestionar ramas de manera completamente visual, sin n
        <img width="771" height="377" alt="a5" src="https://github.com/user-attachments/assets/d48b4e2f-0d0b-4724-8ad0-c9722c2c7f8d" />
      </div>
   4. **Asigna un nombre a la rama**: se recomienda utilizar nombres descriptivos y sin espacios. Escribe el nombre y presiona `Enter`.
-  5. **Verifica el cambio**: automáticamente, Visual Studio Code cambiará el entorno de trabajo hacia la nueva rama creada, lo cual se refleja en el selector inferior izquierdo.
      <div align="center">
        <img width="366" height="491" alt="a6" src="https://github.com/user-attachments/assets/169de1d3-a5db-46b4-bbce-7886dd4d2522" />
+     </div>
+  6. **Verifica el cambio**: automáticamente, Visual Studio Code cambiará el entorno de trabajo hacia la nueva rama creada, lo cual se refleja en el selector inferior izquierdo.
+     <div align="center">
+       <img width="502" height="411" alt="a7" src="https://github.com/user-attachments/assets/7a98ffc3-1571-4f9f-868b-e635472c3cda" />
      </div>
   
   **Opción 2: Mediante el panel de Control de código fuente**
