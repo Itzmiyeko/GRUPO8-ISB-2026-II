@@ -26,11 +26,10 @@ Antes de comenzar a utilizar Git, este debe instalarse en el sistema operativo c
 - **Linux**: `sudo apt-get install git`
 - **macOS**: `brew install git`
 
-También, es necesario configurar la identidad del usuario, ya que cada cambio registrado en el historial quedará asociado a estos datos:
+Para la verificación de que la instalación se realizó correctamente, se usan estas líneas de código:
 
 ```bash
-git config --global user.name "Tu Nombre"
-git config --global user.email "tu@email.com"
+git --version
 ```
 
 ### Áreas de trabajo de Git
@@ -42,7 +41,7 @@ Para comprender el funcionamiento interno de Git, es útil visualizar el flujo d
 3. **Repositorio local (Local Repository)**: constituye la copia del proyecto almacenada en el equipo, junto con todo su historial de cambios confirmados mediante `git commit`.
 4. **Repositorio remoto (Remote Repository)**: es la versión compartida del proyecto alojada en GitHub, hacia la cual se envían los cambios mediante `git push`, y desde la cual se descargan actualizaciones mediante `git pull` o `git fetch`.
 
-## 2. Comandos principales
+## 2. COMANDOS PRINCIPALES
 Los comandos fundamentales que conforman el flujo de trabajo por medio de Git para poder editar en Github:
 * **git init:** inicia el rastreo de historial de edits en un repositorio, conviertiéndolo en uno local de Git.
 * **git add:** agrega todos los cambios realizados al área de trabajo, es decir, selecciona que modificaciones se incluirán en el próximo registro de cambios.
@@ -55,7 +54,7 @@ Primero se edita el archivo, luego se agrega al área de preparación, después 
 **Flujo:** git init → Modificar → git add → git commit → git push → GitHub
 
 ### Curiosidades
-#### git status
+#### Git status
 Nos proporciona la información de cuáles archivos han cambiado, cuáles ya están preparados (*staged*) y cuáles aún no son rastreados por Git. Se recomienda utilizarlo con frecuencia, especialmente después de crear o modificar un archivo, ya que permite confirmar el estado exacto del proyecto antes de continuar:
 
 ```bash
@@ -71,7 +70,7 @@ git add <archivo>
 git commit -m "Descripción del cambio"
 ```
 
-#### git log
+#### Git log
 git log muestra el historial completo de commits realizados en el repositorio, permitiendo revisar quién hizo cada cambio y cuándo:
 
 ```bash
@@ -81,7 +80,7 @@ git log --oneline --graph --decorate --all   # vista gráfica de ramas y fusione
 ```
 
 
-## 3. Manejo desde VS Code
+## 3. MANEJO DESDE VISUAL STUDIO CODE
 Visual Studio Code permite ejecutar todo este flujo de trabajo de manera visual, sin necesidad de escribir los comandos manualmente en la terminal, a través del panel de "Control de código fuente". El orden recomendado de trabajo es el siguiente:
 
 1. Pull: antes de comenzar a trabajar, se recomienda actualizar el repositorio local descargando los cambios más recientes del repositorio remoto, evitando así conflictos posteriores.
@@ -119,7 +118,7 @@ De esta manera, cada vez que se realice un commit, este se sincronizará automá
 ## 4. BUENAS PRÁCTICAS
 Se recomienda un uso ordenado del flujo de trabajo descrito, se recomienda considerar:
 * **CONFIGURACION INICIAL:**
-antes de realizar cualquier modificación al repositorio remoto, es indispensable configurar la identidad del usuario en Git, mediante los siguientes comandos:
+Antes de realizar cualquier modificación al repositorio remoto, es indispensable configurar la identidad del usuario en Git, mediante los siguientes comandos:
 
 ```bash
 git config --global user.name "Tu Nombre"
@@ -129,20 +128,20 @@ git config --global user.email "tu@email.com"
 * **CREACIÓN DE UN REPOSITORIO:**
   Existen dos enfoques posibles:
 
-*a) Crear el repositorio primero en GitHub:*
-Se accede a la plataforma, se selecciona la opción "New repository", se asigna un nombre, una descripción opcional y se define su visibilidad (público o privado). Posteriormente, dicho repositorio remoto se clona hacia el equipo local mediante Visual Studio Code, utilizando la opción "Clone Repository" desde el panel de control de código fuente, o bien mediante el comando:
+  *a) Crear el repositorio primero en GitHub:*
+  Se accede a la plataforma, se selecciona la opción "New repository", se asigna un nombre, una descripción opcional y se define su visibilidad (público o privado). Posteriormente, dicho repositorio remoto se clona hacia el equipo local mediante Visual Studio Code, utilizando la opción "Clone Repository" desde el panel de control de código fuente, o bien mediante el comando:
 
-```bash
-git clone https://github.com/usuario/nombre-repositorio.git
-```
+  ```bash
+  git clone https://github.com/usuario/nombre-repositorio.git
+  ```
 
-*b) Crear el repositorio primero de forma local:*
-Se inicializa el proyecto dentro de Visual Studio Code y, posteriormente, se vincula a un repositorio remoto en GitHub mediante:
+   *b) Crear el repositorio primero de forma local:*
+   Se inicializa el proyecto dentro de Visual Studio Code y, posteriormente, se vincula a un repositorio remoto en GitHub mediante:
 
-```bash
-git init
-git remote add origin https://github.com/usuario/nombre-repositorio.git
-```
+    ```bash
+    git init
+    git remote add origin https://github.com/usuario/nombre-repositorio.git
+    ```
 
 * **CREACIÓN DE RAMAS:**
 Las ramas, también llamadas branchs, permiten que varias personas trabajen simultáneamente sobre un mismo proyecto sin interferir entre sí. Se recomienda que el líder del equipo sea quien decida qué versión final se integrará a la rama principal, evitando así tener que lidiar con conflictos de fusión (merge conflicts) causados por modificaciones simultáneas sobre las mismas líneas de código.
