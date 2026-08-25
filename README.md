@@ -1,4 +1,6 @@
 # Introducción a Señales Biomédicas 2026-II 
+![GIF del proyecto](https://github.com/user-attachments/assets/fb6e0bef-c4fb-41cc-a8d2-98b50c67792e)
+
 
 ## Introducción 🌟
 <p align="justify">
