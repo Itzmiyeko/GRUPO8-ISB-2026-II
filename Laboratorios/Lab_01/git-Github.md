@@ -87,17 +87,18 @@ Visual Studio Code permite ejecutar todo este flujo de trabajo de manera visual,
 2. Add (nueva modificación): una vez realizados los cambios en los archivos, estos se agregan al área de preparación seleccionándolos desde el panel de control de código fuente.
 
 <div align="center">
-<img width="500" height="136" alt="p1" src="https://github.com/user-attachments/assets/550e088e-faee-4282-adf8-97d39bdc7a84" />
+<img width="827" height="392" alt="a1" src="https://github.com/user-attachments/assets/45bfb4e0-049f-4dd5-a77c-ebbea34d7084" />
 </div>
 
 3. Commit con descripción: se redacta un mensaje que explique el cambio realizado y se confirma el registro, quedando guardado en el historial local del proyecto.
 <div align="center">
-<img width="500" height="136" alt="p2" src="https://github.com/user-attachments/assets/2785e1f9-c718-4199-9564-aaf662f40405" />
+<img width="346" height="385" alt="a2" src="https://github.com/user-attachments/assets/faff01ee-411f-462b-92f1-a0a20f5ef8ff" />
+
 </div>
 
 4. Push: Sincronización: finalmente, se sincronizan los cambios confirmados, enviándolos al repositorio remoto en GitHub para que queden disponibles en línea.
 <div align="center">
-<img width="500" height="136" alt="p3" src="https://github.com/user-attachments/assets/e8cfe533-ce4b-4dc4-9ac1-9389f8d9af85" />
+<img width="350" height="400" alt="a31" src="https://github.com/user-attachments/assets/8ff6c657-c04c-4c7d-86ec-21fb641fcb6b" />
 </div>
 
 
