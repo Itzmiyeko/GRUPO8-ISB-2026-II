@@ -1,9 +1,26 @@
-# Introducción a Señales Biomédicas - G8
-Proyecto Cayetano: análisis y procesamiento de señales desarrollado para el curso de Introducción a Señales Biomédicas.
-| Integrantes: | Descripción: | Rol: |
-| ----- | :---- | :---- |
-| **ARIANA CRISTINA LOZANO REGUERA** |  Estudiante de 7mo ciclo de ingeniería biomédica interesada en Ingeniería de Tejidos y en Señales e imágenes biomédicas. |  **Encargada del Diseño 3D:** *Responsable del diseño 3D, crearé modelos tridimensionales detallados y ajustaré el wearable según las necesidades del usuario para asegurar que el producto sea funcional y cómodo, y garantizar la compatibilidad con los componentes electrónicos. Además, coordinaré el proceso desde la conceptualización hasta la fabricación.* |
-| **EMMA LISBETH RIVERA JARA** ![image2](https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Integrantes/Emma%20Rivera%20(foto%20github).jpeg) |  Estudiante de Ingeniería Biomédica de 7mo ciclo interesado en Señales e imágenes biomédica y Biomecánica. |  **Encargada de Programación (Sensores y Actuadores):** *Responsable del desarrollo e implementación del código necesario para la correcta adquisición de datos desde sensores y el control de actuadores. Se encarga de la lógica de funcionamiento del sistema embebido, asegurando una interacción eficiente entre hardware y software.*  |
-| **RENZO WILLIAM LUNA ALIAGA** |  Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería de Tejidos y en Señales e imágenes biomédicas. |  **Encargado de Programación (Visualización en Aplicación + Machine Learning):** *Responsable del desarrollo de la interfaz de visualización en la aplicación, permitiendo la representación clara de los datos obtenidos. Además, implementa modelos básicos de Machine Learning para el análisis de datos, detección de patrones o apoyo en la toma de decisiones del sistema.* |
-| **ITZEL MIYEKO DE LA CRUZ GÁLVEZ** ![Foto de Itzel](Integrantes/fotoitz.png)|   Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería Clínica e investigación. |  **Encargada de Manufactura Digital y Ensamblaje:** *Como encargado de la manufactura digital, desarrollaré estrategias para integrar diversas tecnologías en el diseño y fabricación del producto final. Además supervisaré la implementación de herramientas de impresión 3D y corte láser. Además, diseñaré y desarrollaré el prototipo utilizando diversas técnicas y herramientas, asegurando que los prototipos cumplan con los requisitos y estándares del usuario.*  |
-| **VIVIANA NINOSKA RIVERA GUILLÉN** ![image5](https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Integrantes/Viviana%20Rivera%20(foto).png) |  Estudiante de 7mo-8vo ciclo de ingeniería biomédica interesada en Ingeniería de Tejidos y Biomecánica. |  **Encargada del Diseño Electrónico:** *Como encargada del diseño electrónico, desarrollaré esquemas y circuitos electrónicos para el proyecto, incluyendo el diseño de PCB, asegurando su funcionalidad y eficiencia. Asimismo, coordinaré y supervisaré la integración de los componentes y sistemas electrónicos al prototipo con correcto funcionamiento eléctrico. También me aseguraré de que la documentación e información sea precisa y confiable.* |
+# Introducción a Señales Biomédicas 2026-II 
+
+<p align="center">
+	<img src="https://github.com/user-attachments/assets/fb6e0bef-c4fb-41cc-a8d2-98b50c67792e" alt="GIF del proyecto">
+</p>
+
+
+## Introducción 🌟
+<p align="justify">
+Bienvenido a nuestros repositorio del curso de Introducción a Señales Biomédicas 2026-II. En este espacio se documenta nuestro proceso de aprendizaje en el análisis y procesamiento de señales y sistemas.
+</p>
+
+<p align="justify">
+El objetivo aquí no es solo resolver ecuaciones, sino también mostrar cómo el modelamiento matemática y la simulación de circuitos se aplican al mundo real.
+</p>
+
+## ¿Quiénes somos? 👩‍💻
+
+
+|Foto | Integrantes | Descripción |Contacto|
+| ----- | :---- | :------ |:---|
+| |**ARIANA CRISTINA LOZANO REGUERA** |  Estudiante de 7mo ciclo de ingeniería biomédica interesada en el campo de la biomecánica | ariana.lozano@upch.pe|
+|<img src="https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Integrantes/Emma%20Rivera%20(foto%20github).jpeg" alt="Emma" width="90" height="90">|**EMMA LISBETH RIVERA JARA** |  Estudiante de Ingeniería Biomédica de 7mo ciclo interesado en Señales e imágenes biomédica y Biomecánica.|
+| |**RENZO WILLIAM LUNA ALIAGA** |  Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería de Tejidos y en Señales e imágenes biomédicas. |emma.rivera@upch.pe|
+| <img src="Integrantes/fotoitz.png" alt="Itzel" width="90" height="90">| **ITZEL MIYEKO DE LA CRUZ GÁLVEZ** |  Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería Clínica e investigación. ||
+| <img src="https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Integrantes/Viviana%20Rivera%20(foto).png" alt="Viviana" width="90" height="90">|**VIVIANA NINOSKA RIVERA GUILLÉN**|  Estudiante de 7mo-8vo ciclo de ingeniería biomédica interesada en Ingeniería de Tejidos y Biomecánica. |viviana.rivera@upch.pe|
