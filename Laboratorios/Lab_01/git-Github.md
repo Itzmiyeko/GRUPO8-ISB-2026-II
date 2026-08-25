@@ -215,26 +215,26 @@ git branch -vv                                      # 5. Verificar qué rama rem
 ```
 
 * **Extensión "Markdown Preview Enhanced":**
-Se recomienda instalar esta extensión, ya que permite visualizar una vista previa de cómo se verá el documento renderizado antes de subirlo al repositorio. Dicha vista previa puede activarse mediante el atajo de teclado Ctrl + k, luego se sueltan ambas teclas e inmediatamente después presionar la tecla y.
-
-Lo que podemos decir es que Visual Studio Code funciona como el intermediario visual que resume la ejecución de comandos por Git, , sin eliminar la necesidad de comprender los conceptos subyacentes, los cuales resultan muy esencial e ineludible para un uso eficaz en proyectos de mayor complejidad.
-Además, cuando dos o más colaboradores modifican simultáneamente las mismas líneas de un archivo en el repositorio, Git genera un conflicto de fusión. Visual Studio Code cuenta con un editor de combinación integrado que resalta las versiones en disputa, permitiendo al usuario elegir entre conservar los cambios propios, los entrantes, ambos, o redactar una versión combinada manualmente.
-A su vez, esta potente herramienta destaca por su capacidad de integrar diagramas de flujo, secuencia y arquitectura directamente dentro del documento mediante el uso de sintaxis de Mermaid, PlantUML, WebSequenceDiagrams y Chart.js, eliminando la necesidad de herramientas externas o de generar imágenes por separado. Asimismo, incluye tipografía matemática compatible con KaTeX y MathJax, lo que resulta especialmente útil para la documentación técnica, científica o académica que requiere notación compleja. Su flexibilidad se extiende al ámbito de la exportación, permitiendo convertir el contenido de forma directa a PDF, HTML, PNG e imágenes, además de integrarse con Pandoc para conversiones avanzadas hacia formatos de procesador de texto.
-
-**Instalación:**
-
-1. Abrir el panel de **Extensiones** en Visual Studio Code (ícono de cuadrados en la barra lateral, o `Ctrl + Shift + X`).
-2. Buscar **"Markdown Preview Enhanced"**.
-3. Verificar que el autor sea *Yiyi Wang* (identificador `shd101wyy.markdown-preview-enhanced`), ya que existen extensiones con nombres similares desarrolladas por terceros.
-4. Hacer clic en **Instalar**.
-
-**Activación de la vista previa:**
-
-Una vez instalada, la vista previa mejorada puede abrirse mediante:
-
-- El atajo de teclado **Ctrl + K, seguido de V** (nótese que, en versiones recientes, este es el atajo correspondiente a "Markdown Preview Enhanced: Open Preview to the Side"; el atajo del visor nativo de VS Code es `Ctrl + Shift + V`, por lo que conviene no confundir ambos).
-- Haciendo clic derecho sobre el archivo `.md` abierto y seleccionando **"Open Preview to the Side"**.
-- Mediante la paleta de comandos (`Ctrl + Shift + P`), escribiendo **"Markdown Preview Enhanced: Open Preview to the Side"**.
+  Se recomienda instalar esta extensión, ya que permite visualizar una vista previa de cómo se verá el documento renderizado antes de subirlo al repositorio. Dicha vista previa puede activarse mediante el atajo de teclado Ctrl + k, luego se sueltan ambas teclas e inmediatamente después presionar la tecla y.
+  
+  Lo que podemos decir es que Visual Studio Code funciona como el intermediario visual que resume la ejecución de comandos por Git, , sin eliminar la necesidad de comprender los conceptos subyacentes, los cuales resultan muy esencial e ineludible para un uso eficaz en proyectos de mayor complejidad.
+  Además, cuando dos o más colaboradores modifican simultáneamente las mismas líneas de un archivo en el repositorio, Git genera un conflicto de fusión. Visual Studio Code cuenta con un editor de combinación integrado que resalta las versiones en disputa, permitiendo al usuario elegir entre conservar los cambios propios, los entrantes, ambos, o redactar una versión combinada manualmente.
+  A su vez, esta potente herramienta destaca por su capacidad de integrar diagramas de flujo, secuencia y arquitectura directamente dentro del documento mediante el uso de sintaxis de Mermaid, PlantUML, WebSequenceDiagrams y Chart.js, eliminando la necesidad de herramientas externas o de generar imágenes por separado. Asimismo, incluye tipografía matemática compatible con KaTeX y MathJax, lo que resulta especialmente útil para la documentación técnica, científica o académica que requiere notación compleja. Su flexibilidad se extiende al ámbito de la exportación, permitiendo convertir el contenido de forma directa a PDF, HTML, PNG e imágenes, además de integrarse con Pandoc para conversiones avanzadas hacia formatos de procesador de texto.
+  
+  **Instalación:**
+  
+  1. Abrir el panel de **Extensiones** en Visual Studio Code (ícono de cuadrados en la barra lateral, o `Ctrl + Shift + X`).
+  2. Buscar **"Markdown Preview Enhanced"**.
+  3. Verificar que el autor sea *Yiyi Wang* (identificador `shd101wyy.markdown-preview-enhanced`), ya que existen extensiones con nombres similares desarrolladas por terceros.
+  4. Hacer clic en **Instalar**.
+  
+  **Activación de la vista previa:**
+  
+  Una vez instalada, la vista previa mejorada puede abrirse mediante:
+  
+  - El atajo de teclado **Ctrl + K, seguido de V** (nótese que, en versiones recientes, este es el atajo correspondiente a "Markdown Preview Enhanced: Open Preview to the Side"; el atajo del visor nativo de VS Code es `Ctrl + Shift + V`, por lo que conviene no confundir ambos).
+  - Haciendo clic derecho sobre el archivo `.md` abierto y seleccionando **"Open Preview to the Side"**.
+  - Mediante la paleta de comandos (`Ctrl + Shift + P`), escribiendo **"Markdown Preview Enhanced: Open Preview to the Side"**.
 
 
 ## Referencias
