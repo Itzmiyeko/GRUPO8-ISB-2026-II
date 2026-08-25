@@ -164,10 +164,20 @@ Visual Studio Code permite gestionar ramas de manera completamente visual, sin n
   **Opción 1: Mediante el selector de ramas (barra inferior)**
   
   1. **Ubica el selector de ramas**: en la esquina inferior izquierda de la ventana de VS Code, encontrarás un ícono con el nombre de la rama actual (generalmente `main` o `master`), acompañado de un pequeño ícono de rama.
+     <div align="center">
+     <img width="387" height="523" alt="image" src="https://github.com/user-attachments/assets/99a09b23-18aa-4d45-87ef-f09b56efea7b" />
+     </div>
+
   2. **Haz clic sobre dicho selector**: se desplegará un menú en la parte superior de la pantalla con la lista de ramas existentes en el repositorio.
   3. **Selecciona "Create new branch..."**: esta opción aparecerá en la parte superior del listado desplegado.
-  4. **Asigna un nombre a la rama**: se recomienda utilizar nombres descriptivos y sin espacios, por ejemplo: `feature-login`, `fix-bug-formulario` o `desarrollo-modulo2`. Escribe el nombre y presiona `Enter`.
+     <div align="center">
+       <img width="771" height="377" alt="a5" src="https://github.com/user-attachments/assets/d48b4e2f-0d0b-4724-8ad0-c9722c2c7f8d" />
+     </div>
+  4. **Asigna un nombre a la rama**: se recomienda utilizar nombres descriptivos y sin espacios. Escribe el nombre y presiona `Enter`.
   5. **Verifica el cambio**: automáticamente, Visual Studio Code cambiará el entorno de trabajo hacia la nueva rama creada, lo cual se refleja en el selector inferior izquierdo.
+     <div align="center">
+       <img width="366" height="491" alt="a6" src="https://github.com/user-attachments/assets/169de1d3-a5db-46b4-bbce-7886dd4d2522" />
+     </div>
   
   **Opción 2: Mediante el panel de Control de código fuente**
   
