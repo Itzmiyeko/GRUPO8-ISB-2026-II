@@ -147,72 +147,72 @@ git config --global user.email "tu@email.com"
 Las ramas, también llamadas branchs, permiten que varias personas trabajen simultáneamente sobre un mismo proyecto sin interferir entre sí. Se recomienda que el líder del equipo sea quien decida qué versión final se integrará a la rama principal, evitando así tener que lidiar con conflictos de fusión (merge conflicts) causados por modificaciones simultáneas sobre las mismas líneas de código.
 Visual Studio Code permite gestionar ramas de manera completamente visual, sin necesidad de recurrir a comandos de terminal como `git branch` o `git checkout`.
 
-**Opción 1: Mediante el selector de ramas (barra inferior)**
-
-1. **Ubica el selector de ramas**: en la esquina inferior izquierda de la ventana de VS Code, encontrarás un ícono con el nombre de la rama actual (generalmente `main` o `master`), acompañado de un pequeño ícono de rama.
-2. **Haz clic sobre dicho selector**: se desplegará un menú en la parte superior de la pantalla con la lista de ramas existentes en el repositorio.
-3. **Selecciona "Create new branch..."**: esta opción aparecerá en la parte superior del listado desplegado.
-4. **Asigna un nombre a la rama**: se recomienda utilizar nombres descriptivos y sin espacios, por ejemplo: `feature-login`, `fix-bug-formulario` o `desarrollo-modulo2`. Escribe el nombre y presiona `Enter`.
-5. **Verifica el cambio**: automáticamente, Visual Studio Code cambiará el entorno de trabajo hacia la nueva rama creada, lo cual se refleja en el selector inferior izquierdo.
-
-**Opción 2: Mediante el panel de Control de código fuente**
-
-1. Abre el panel de **"Control de código fuente"**.
-2. Haz clic en los **tres puntos (...)** ubicados en la parte superior del panel.
-3. Dirígete a la opción **"Branch"** dentro del menú desplegado.
-4. Selecciona **"Create Branch..."** e ingresa el nombre correspondiente.
-
-**Equivalente por línea de comandos:**
-
-```bash
-git branch nueva-rama          # crea la rama sin cambiarse a ella
-git checkout -b nueva-rama     # crea la rama y se cambia a ella en un solo paso
-git checkout main              # cambia hacia una rama existente
-```
-
-Para listar las ramas disponibles:
-
-```bash
-git branch        # lista las ramas locales
-git branch -vv     # muestra la rama remota asociada a cada rama local
-git branch -r      # lista solo las ramas remotas
-git branch -a      # lista ramas locales y remotas
-```
-
-Para eliminar una rama:
-
-```bash
-git branch -d nombre-rama    # eliminación segura (falla si hay cambios sin fusionar)
-git branch -D nombre-rama    # eliminación forzada
-```
-**Fusión simple (fast-forward)**, cuando `main` no ha recibido cambios nuevos desde que se creó la rama secundaria:
-
-```bash
-git switch main
-git pull --ff-only
-git merge nueva-rama
-git push
-```
-
-**Fusión con commit de fusión** (común en equipos de trabajo), cuando `main` y la rama secundaria han recibido commits nuevos de forma independiente:
-
-```bash
-git switch main
-git pull
-git merge nueva-rama
-git push
-```
-**Trabajo con ramas remotas existentes**
-
-Cuando un repositorio remoto ya cuenta con varias ramas creadas por otros integrantes del equipo, se puede sincronizar entre ellas y comenzar a trabajar sobre ellas desde el equipo local siguiendo estos pasos:
-
-```bash
-git branch -a                                      # 1. Verificar ramas locales y remotas
-git fetch --all                                     # 2. Actualizar referencias remotas
-git pull --ff-only                                  # 3. Descargar e integrar últimos cambios
-git switch --track -c nombre-rama origin/nombre-rama # 4. Crear rama local que siga a una remota
-git branch -vv                                      # 5. Verificar qué rama remota sigue cada rama local
-```
+  **Opción 1: Mediante el selector de ramas (barra inferior)**
+  
+  1. **Ubica el selector de ramas**: en la esquina inferior izquierda de la ventana de VS Code, encontrarás un ícono con el nombre de la rama actual (generalmente `main` o `master`), acompañado de un pequeño ícono de rama.
+  2. **Haz clic sobre dicho selector**: se desplegará un menú en la parte superior de la pantalla con la lista de ramas existentes en el repositorio.
+  3. **Selecciona "Create new branch..."**: esta opción aparecerá en la parte superior del listado desplegado.
+  4. **Asigna un nombre a la rama**: se recomienda utilizar nombres descriptivos y sin espacios, por ejemplo: `feature-login`, `fix-bug-formulario` o `desarrollo-modulo2`. Escribe el nombre y presiona `Enter`.
+  5. **Verifica el cambio**: automáticamente, Visual Studio Code cambiará el entorno de trabajo hacia la nueva rama creada, lo cual se refleja en el selector inferior izquierdo.
+  
+  **Opción 2: Mediante el panel de Control de código fuente**
+  
+  1. Abre el panel de **"Control de código fuente"**.
+  2. Haz clic en los **tres puntos (...)** ubicados en la parte superior del panel.
+  3. Dirígete a la opción **"Branch"** dentro del menú desplegado.
+  4. Selecciona **"Create Branch..."** e ingresa el nombre correspondiente.
+  
+  **Equivalente por línea de comandos:**
+  
+  ```bash
+  git branch nueva-rama          # crea la rama sin cambiarse a ella
+  git checkout -b nueva-rama     # crea la rama y se cambia a ella en un solo paso
+  git checkout main              # cambia hacia una rama existente
+  ```
+  
+  Para listar las ramas disponibles:
+  
+  ```bash
+  git branch        # lista las ramas locales
+  git branch -vv     # muestra la rama remota asociada a cada rama local
+  git branch -r      # lista solo las ramas remotas
+  git branch -a      # lista ramas locales y remotas
+  ```
+  
+  Para eliminar una rama:
+  
+  ```bash
+  git branch -d nombre-rama    # eliminación segura (falla si hay cambios sin fusionar)
+  git branch -D nombre-rama    # eliminación forzada
+  ```
+  **Fusión simple (fast-forward)**, cuando `main` no ha recibido cambios nuevos desde que se creó la rama secundaria:
+  
+  ```bash
+  git switch main
+  git pull --ff-only
+  git merge nueva-rama
+  git push
+  ```
+  
+  **Fusión con commit de fusión** (común en equipos de trabajo), cuando `main` y la rama secundaria han recibido commits nuevos de forma independiente:
+  
+  ```bash
+  git switch main
+  git pull
+  git merge nueva-rama
+  git push
+  ```
+  **Trabajo con ramas remotas existentes**
+  
+  Cuando un repositorio remoto ya cuenta con varias ramas creadas por otros integrantes del equipo, se puede sincronizar entre ellas y comenzar a trabajar sobre ellas desde el equipo local siguiendo estos pasos:
+  
+  ```bash
+  git branch -a                                      # 1. Verificar ramas locales y remotas
+  git fetch --all                                     # 2. Actualizar referencias remotas
+  git pull --ff-only                                  # 3. Descargar e integrar últimos cambios
+  git switch --track -c nombre-rama origin/nombre-rama # 4. Crear rama local que siga a una remota
+  git branch -vv                                      # 5. Verificar qué rama remota sigue cada rama local
+  ```
 
 * **Extensión "Markdown Preview Enhanced":**
   Se recomienda instalar esta extensión, ya que permite visualizar una vista previa de cómo se verá el documento renderizado antes de subirlo al repositorio. Dicha vista previa puede activarse mediante el atajo de teclado Ctrl + k, luego se sueltan ambas teclas e inmediatamente después presionar la tecla y.
