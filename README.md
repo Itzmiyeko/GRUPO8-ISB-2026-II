@@ -19,7 +19,7 @@ El objetivo aquí no es solo resolver ecuaciones, sino también mostrar cómo el
 
 |Foto | Integrantes | Descripción |Contacto|
 | ----- | :---- | :------ |:---|
-|<img width="90" height="90" alt="Image" src="https://github.com/user-attachments/assets/a0ed3210-fe87-480e-9783-936a486610d9" />|**ARIANA CRISTINA LOZANO REGUERA** |  Estudiante de 7mo ciclo de ingeniería biomédica interesada en el campo de la biomecánica | ariana.lozano@upch.pe|
+|<img width="90" height="90" alt="Ariana" src="Imágenes/Ari.png" style="object-fit: cover;" />|**ARIANA CRISTINA LOZANO REGUERA** |  Estudiante de 7mo ciclo de ingeniería biomédica interesada en el campo de la biomecánica | ariana.lozano@upch.pe|
 |<img src="https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Imágenes/Emma%20Rivera%20(foto%20github).jpeg" alt="Emma" width="90" height="90">|**EMMA LISBETH RIVERA JARA** |  Estudiante de Ingeniería Biomédica de 7mo ciclo interesado en Señales e imágenes biomédica y Biomecánica.| emma.rivera@upch.pe
 |<img width="90" height="90" alt="WhatsApp Image 2026-08-23 at 12 49 50 AM" src="https://github.com/user-attachments/assets/7e518c9d-323d-471b-a0e4-64b3f0a95e02" /> |**RENZO WILLIAM LUNA ALIAGA** |  Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería de Tejidos y en Señales e imágenes biomédicas. |renzo.luna@upch.pe|
 | <img src="Imágenes/fotoitz.png" alt="Itzel" width="90" height="90">| **ITZEL MIYEKO DE LA CRUZ GÁLVEZ** |  Estudiante de 7mo ciclo de la carrera de ingeniería biomédica. Interesado en Ingeniería Clínica e investigación. ||
