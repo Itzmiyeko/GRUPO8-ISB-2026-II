@@ -1,14 +1,17 @@
 # Informe de Laboratorio — Introducción a Señales Biomédicas con PhysioNet
 
 **Universidad:** Universidad Peruana Cayetano Heredia — Ingeniería Biomédica
+
 **Laboratorio:** LAB 2
+
 ***Integrantes:***
-**
+
 **- ARIANA CRISTINA LOZANO REGUERA**
 **- EMMA LISBETH RIVERA JARA**
 **- ITZEL MIYEKO DE LA CRUZ GALVEZ**
 **- RENZO WILLIAM LUNA ALIAGA**
 **- VIVIANA NINOSKA RIVERA GUILLEN**
+
 ---
 
 ## 1. Identificación de la base de datos
