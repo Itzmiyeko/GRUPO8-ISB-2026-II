@@ -1,8 +1,8 @@
-# Informe de Laboratorio — Introducción a Señales Biomédicas con PhysioNet
+# Informe de Laboratorio 2 - LAB001 — Introducción a Señales Biomédicas
 
 **Universidad:** Universidad Peruana Cayetano Heredia — Ingeniería Biomédica
 
-**Laboratorio:** LAB 2
+**Laboratorio:** Laboratorio 2 - LAB001
 
 ***Integrantes:***
 
