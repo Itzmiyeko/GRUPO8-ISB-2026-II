@@ -58,14 +58,13 @@
 
 ### Gráfica 1 — ECG completo (vista ampliada del registro)
 
-<img width="1489" height="490" alt="l1" src="https://github.com/user-attachments/assets/2f320e91-d616-463f-ba5c-c61d46f58cd0" />
+<img width="1489" height="490" alt="l21" src="https://github.com/user-attachments/assets/5a83f853-0bac-406e-8290-b52ce0986e60" />
 
 El código grafica la señal completa (`t` vs `signal`), pero el eje `x` se restringe mediante `plt.xlim(1515, 1520)`, por lo que en realidad se visualiza una **ventana de 5 segundos** ubicada cerca del final del registro (entre 1515 s y 1520 s), y no las 30 minutos completas. En esa ventana se observan con claridad **seis latidos consecutivos**, cada uno con una deflexión negativa pronunciada (compatible con el complejo QRS visto desde la derivación V1) seguida de una fase de recuperación más lenta.
 
 ### Gráfica 2 — Segmento ECG ampliado (primeros 10 s)
 
-<img width="1489" height="490" alt="l21" src="https://github.com/user-attachments/assets/5a83f853-0bac-406e-8290-b52ce0986e60" />
-
+<img width="1489" height="490" alt="l1" src="https://github.com/user-attachments/assets/2f320e91-d616-463f-ba5c-c61d46f58cd0" />
 
 Se aíslan los primeros 10 segundos del registro (3600 muestras). Se identifican aproximadamente **10 ciclos cardiacos**, cada uno con: una fase basal relativamente plana, una deflexión brusca hacia amplitudes negativas (entre -0.7 mV y -0.95 mV, compatible con el complejo QRS visto en V1), y una elevación posterior hacia valores positivos (0.4 mV a 0.6 mV) que decae progresivamente hasta el siguiente ciclo. El ritmo es regular, con periodos entre picos de aproximadamente 0.8-0.9 s (equivalente a una frecuencia cardiaca de ~70-75 lpm).
 
