@@ -100,8 +100,7 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
   1. Se tomó el segmento de 10 s del canal `V1`.
   2. Se eliminó la componente DC restando la media (`ecg_for_wav - mean`).
   3. Se normalizó dividiendo entre el valor absoluto máximo, dejando la señal en el rango [-1, 1].
-  4. Se escaló y convirtió a enteros de 16 bits (`int16`) multiplicando por 32767.
-  5. Se guardó como WAV usando `scipy.io.wavfile.write`, empleando `fs = 360 Hz` como frecuencia de muestreo del audio (igual a la del ECG), para conservar la relación temporal entre muestras.
+  4. Se guardó como WAV usando `scipy.io.wavfile.write`, empleando `fs = 360 Hz` como frecuencia de muestreo del audio (igual a la del ECG), para conservar la relación temporal entre muestras.
 
 - **Archivo generado:** `ecg_record_111_channel_1.wav`
 - **Verificación del rango int16:** mínimo = -32767, máximo = 15195 (dentro del rango válido de `int16`: -32768 a 32767).
