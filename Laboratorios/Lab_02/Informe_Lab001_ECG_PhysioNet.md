@@ -60,7 +60,7 @@
 
 <img width="1489" height="490" alt="l21" src="https://github.com/user-attachments/assets/5a83f853-0bac-406e-8290-b52ce0986e60" />
 
-El código grafica la señal completa (`t` vs `signal`), pero el eje `x` se restringe mediante `plt.xlim(1515, 1520)`, por lo que en realidad se visualiza una **ventana de 5 segundos** ubicada cerca del final del registro (entre 1515 s y 1520 s), y no las 30 minutos completas. En esa ventana se observan con claridad **seis latidos consecutivos**, cada uno con una deflexión negativa pronunciada (compatible con el complejo QRS visto desde la derivación V1) seguida de una fase de recuperación más lenta.
+El código grafica la señal completa (`t` vs `signal`), pero el eje `x` se restringe mediante `plt.xlim(1515, 1750)`, por lo que en realidad se visualiza una **ventana de 5 segundos** ubicada cerca del final del registro (entre 1515 s y 1750 s), y no las 30 minutos completas. En esa ventana se observan con claridad **seis latidos consecutivos**, cada uno con una deflexión negativa pronunciada (compatible con el complejo QRS visto desde la derivación V1) seguida de una fase de recuperación más lenta.
 
 ### Gráfica 2 — Segmento ECG ampliado (primeros 10 s)
 
