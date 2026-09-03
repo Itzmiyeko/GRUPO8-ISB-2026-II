@@ -1,21 +1,25 @@
 # Informe de Laboratorio — Introducción a Señales Biomédicas con PhysioNet
 
-**Curso:** Señales Biomédicas
 **Universidad:** Universidad Peruana Cayetano Heredia — Ingeniería Biomédica
-**Laboratorio:** LAB 1 — Introducción con PhysioNet
-**Tema:** Importación, exploración, visualización y exportación de una señal ECG
-
+**Laboratorio:** LAB 2
+***Integrantes:***
+**
+**- ARIANA CRISTINA LOZANO REGUERA**
+**- EMMA LISBETH RIVERA JARA**
+**- ITZEL MIYEKO DE LA CRUZ GALVEZ**
+**- RENZO WILLIAM LUNA ALIAGA**
+**- VIVIANA NINOSKA RIVERA GUILLEN**
 ---
 
 ## 1. Identificación de la base de datos
 
 - **Base de datos:** `mitdb` — **MIT-BIH Arrhythmia Database** (PhysioNet).
-- Base de datos de referencia que contiene registros electrocardiográficos anotados, ampliamente utilizada para el estudio y desarrollo de algoritmos de detección de arritmias.
+- Base de datos de referencia que contiene registros electrocardiográficos anotados.
 - Acceso realizado mediante la librería `wfdb` de Python, usando el argumento `pn_dir="mitdb"`.
 
 ## 2. Identificación del registro
 
-- **Registro (RECORD):** `111`
+- **Registro seleccionado (RECORD):** `111`
 - Siguiendo el concepto **DATABASE + RECORD**, el registro analizado se identifica de forma única como `mitdb/111`, ya que el mismo número de registro podría existir (con contenido distinto) en otra base de datos.
 - Número total de muestras del registro completo: **650 000**.
 - Canales disponibles en el registro: **2** → `MLII` y `V1` (ambos en mV).
@@ -47,25 +51,26 @@
 
 ### Gráfica 1 — ECG completo (vista ampliada del registro)
 
-![Gráfica 1 - ECG completo](img/grafica1_ecg_completo.png)
+<img width="1489" height="490" alt="l1" src="https://github.com/user-attachments/assets/2f320e91-d616-463f-ba5c-c61d46f58cd0" />
 
 El código grafica la señal completa (`t` vs `signal`), pero el eje `x` se restringe mediante `plt.xlim(1515, 1520)`, por lo que en realidad se visualiza una **ventana de 5 segundos** ubicada cerca del final del registro (entre 1515 s y 1520 s), y no las 30 minutos completas. En esa ventana se observan con claridad **seis latidos consecutivos**, cada uno con una deflexión negativa pronunciada (compatible con el complejo QRS visto desde la derivación V1) seguida de una fase de recuperación más lenta.
 
 ### Gráfica 2 — Segmento ECG ampliado (primeros 10 s)
 
-![Gráfica 2 - Segmento ECG](img/grafica2_segmento_ecg.png)
+<img width="1489" height="490" alt="l21" src="https://github.com/user-attachments/assets/5a83f853-0bac-406e-8290-b52ce0986e60" />
+
 
 Se aíslan los primeros 10 segundos del registro (3600 muestras). Se identifican aproximadamente **10 ciclos cardiacos**, cada uno con: una fase basal relativamente plana, una deflexión brusca hacia amplitudes negativas (entre -0.7 mV y -0.95 mV, compatible con el complejo QRS visto en V1), y una elevación posterior hacia valores positivos (0.4 mV a 0.6 mV) que decae progresivamente hasta el siguiente ciclo. El ritmo es regular, con periodos entre picos de aproximadamente 0.8-0.9 s (equivalente a una frecuencia cardiaca de ~70-75 lpm).
 
 ### Gráfica 3 — Histograma de amplitudes
 
-![Gráfica 3 - Histograma](img/grafica3_histograma.png)
+<img width="889" height="490" alt="l3" src="https://github.com/user-attachments/assets/db97ce5b-11b3-4dbd-a50b-5456ba0b9ced" />
 
 La distribución de amplitudes del segmento de 10 segundos muestra una **concentración marcada alrededor de 0.05-0.15 mV** (la fase basal entre latidos, que es la que más tiempo ocupa dentro de cada ciclo). Existe una **cola extendida hacia valores negativos** (entre -0.6 mV y -0.95 mV), correspondiente a las deflexiones del complejo QRS, y una dispersión moderada hacia valores positivos (0.2 mV a 0.6 mV) asociada a la fase de repolarización. La distribución es **asimétrica (no gaussiana)**, como es esperable en una señal ECG, ya que combina una fase de reposo predominante con eventos transitorios de gran amplitud.
 
 ### Gráfica 4 — Representación discreta (primeras 100 muestras)
 
-![Gráfica 4 - Representación discreta](img/grafica4_discreta.png)
+<img width="1490" height="490" alt="l4" src="https://github.com/user-attachments/assets/d77d241d-b13a-4947-b055-d54854a8a0e8" />
 
 Se muestran las primeras 100 muestras (equivalentes a ~0.275 s) como puntos discretos `x[n]` unidos por una línea. Se aprecia claramente que la señal está formada por **valores individuales tomados a intervalos regulares de 1/360 s**, y no por una curva continua. En este tramo se observa parte de un complejo QRS (pico cercano a 0.085 mV alrededor de n≈7) seguido de fluctuaciones de menor amplitud típicas de la actividad basal/ruido de fondo.
 
@@ -98,7 +103,7 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 
 ## 9. Interpretación de los resultados
 
-- El registro `111` (canal `V1`) presenta una señal ECG con un **ritmo regular** (~70-75 lpm aproximados a partir de los intervalos entre picos observados en la Gráfica 2), sin cambios evidentes de morfología entre ciclos dentro de la ventana analizada.
+- El registro `111`, en el canal `V1` presenta una señal ECG con un **ritmo regular**, sin cambios evidentes de morfología entre ciclos dentro de la ventana analizada.
 - La derivación `V1` produce complejos con **deflexión predominantemente negativa** (a diferencia de `MLII`, donde el QRS suele ser mayormente positivo), lo cual es consistente con la orientación de esta derivación precordial respecto al vector eléctrico cardiaco.
 - El histograma confirma que la mayor parte del tiempo la señal permanece cerca de la línea basal, y que los valores extremos (positivos y negativos) son eventos poco frecuentes pero de gran amplitud, correspondientes a los complejos QRS y a la fase de repolarización (onda T).
 - La representación discreta evidencia que, pese a la apariencia "continua" de las Gráficas 1 y 2, la señal ECG es en realidad una **secuencia de muestras discretas** `x[n]` tomadas cada 2.78 ms, y que la fidelidad de la forma de onda depende directamente de `fs`.
@@ -108,12 +113,7 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 
 1. La identificación correcta de una señal biomédica en PhysioNet requiere siempre especificar tanto la **base de datos** como el **número de registro**, ya que el mismo identificador de registro puede tener significados distintos en diferentes bases de datos.
 2. La frecuencia de muestreo (`fs = 360 Hz`) determina la resolución temporal de la señal: a mayor `fs`, mayor capacidad de capturar detalles finos de la morfología del ECG (como el complejo QRS); a menor `fs`, se corre el riesgo de perder información relevante.
-3. Cada canal de un registro ECG (en este caso `MLII` y `V1`) corresponde a una derivación distinta, con una perspectiva diferente de la actividad eléctrica cardiaca; por ello, la morfología observada (por ejemplo, la polaridad del QRS) depende directamente del canal seleccionado.
-4. Las distintas formas de visualización (señal completa, segmento ampliado, histograma y representación discreta) aportan información complementaria: la vista temporal permite evaluar ritmo y morfología, el histograma resume la distribución estadística de amplitudes, y la vista discreta hace explícito el carácter muestreado (`x[n]`) de toda señal biomédica digital.
-5. Las estadísticas básicas (media, desviación estándar, mínimo, máximo y rango) permiten caracterizar cuantitativamente la señal, aunque no sustituyen el análisis morfológico visual, ya que no conservan información sobre la secuencia temporal de los eventos.
-6. Convertir un ECG a formato WAV es posible porque ambas son señales digitales, pero esto no implica que el ECG sea una señal acústica; la conversión facilita la exploración auditiva del ritmo cardiaco, aunque con pérdida de la información morfológica fina que sí se aprecia en la representación gráfica.
-7. Este laboratorio sienta las bases para el procesamiento digital de señales biomédicas (filtrado FIR/IIR, análisis en frecuencia, Transformada Z), al familiarizar al estudiante con los conceptos de muestreo, eje temporal, canal y representación discreta `x[n]`.
+3. Las distintas formas de visualización (señal completa, segmento ampliado, histograma y representación discreta) aportan información complementaria: la vista temporal permite evaluar ritmo y morfología, el histograma resume la distribución estadística de amplitudes, y la vista discreta hace explícito el carácter muestreado (`x[n]`) de toda señal biomédica digital.
+4. Las estadísticas básicas (media, desviación estándar, mínimo, máximo y rango) permiten caracterizar cuantitativamente la señal, aunque no sustituyen el análisis morfológico visual, ya que no conservan información sobre la secuencia temporal de los eventos.
+5. Convertir un ECG a formato WAV es posible porque ambas son señales digitales. La conversión a formato WAV facilita la exploración auditiva del ritmo cardiaco, aunque con pérdida de la información morfológica fina que sí se aprecia en la representación gráfica.
 
----
-
-*Informe generado a partir de la ejecución del notebook `Lab001_Introduccion_Senales_Biomedicas_PhysioNet.ipynb`, con parámetros: `DATABASE = "mitdb"`, `RECORD = "111"`, `CHANNEL = 1` (V1), `DURATION = 10 s`.*
