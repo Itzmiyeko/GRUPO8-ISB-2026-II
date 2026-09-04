@@ -91,8 +91,8 @@ El MSE obtenido respecto a la señal original fue:
 
 | Filtro | MSE |
 |---|---:|
-| FIR | \(1.359\times10^{-6}\) |
-| IIR | \(8.745\times10^{-7}\) |
+| FIR | \(1.359*10^{-6}\) |
+| IIR | \(8.745*10^{-7}\) |
 
 En este caso, el filtro IIR presentó un MSE ligeramente menor respecto a la señal ECG original.
 
@@ -125,7 +125,7 @@ Se compararon la señal contaminada y la señal recuperada tanto en el dominio t
 
 Los resultados obtenidos fueron:
 
-- **MSE:** \(9.381\times10^{-5}\)
+- **MSE:** \(9.381*10^{-5}\)
 - **RMSE:** \(0.00969\)
 - **SNR antes del filtrado:** **5.10 dB**
 - **SNR después del filtrado:** **28.39 dB**
@@ -147,7 +147,7 @@ Se utilizó una frecuencia de corte de **5 Hz**. Como consecuencia, el complejo 
 El MSE aumentó hasta:
 
 \[
-MSE=2.715\times10^{-2}
+MSE=2.715*10^{-2}
 \]
 
 Esto demuestra que una frecuencia de corte demasiado baja puede eliminar información fisiológica relevante.
