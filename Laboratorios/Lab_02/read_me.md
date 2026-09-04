@@ -136,7 +136,6 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 
 A continuación se presenta la gráfica de la señal en el dominio del tiempo obtenida a partir del canal 0 del registro 16272:  
 Frecuencia de muestreo: 128 Hz
-
 ![][image1]
 
 ### **3\. Transformada Rápida de Fourier (FFT)**
