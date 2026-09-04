@@ -42,7 +42,7 @@ En el dominio temporal se identificaron los principales elementos de la morfolog
 La frecuencia de muestreo determina la frecuencia máxima observable según el criterio de Nyquist:
 
 fNyquist= fs/2
-
+fNyquist= 125Hz
 ## 2. Análisis frecuencial mediante FFT
 
 Se utilizó la FFT para analizar el contenido frecuencial de la señal.
@@ -126,8 +126,8 @@ Se compararon la señal contaminada y la señal recuperada tanto en el dominio t
 
 Los resultados obtenidos fueron:
 
-- **MSE:** \(9.381*10^{-5}\)
-- **RMSE:** \(0.00969\)
+- **MSE:** 9.381 × 10⁻⁵
+- **RMSE:** 0.00969
 - **SNR antes del filtrado:** **5.10 dB**
 - **SNR después del filtrado:** **28.39 dB**
 
