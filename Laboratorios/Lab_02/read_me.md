@@ -21,7 +21,7 @@
 ### 1. Identificación de la base de datos
 
 - **Base de datos:** `mitdb` — **MIT-BIH Arrhythmia Database** (PhysioNet).
-- Base de datos de referencia que contiene registros electrocardiográficos anotados.
+- Base de datos de referencia que contiene registros EKG anotados.
 - Acceso realizado mediante la librería `wfdb` de Python, usando el argumento `pn_dir="mitdb"`.
 
 ### 2. Identificación del registro
