@@ -2,7 +2,7 @@
 
 **Facultad - Carrera:** Facultad de Ciencias e Ingeniería — Ingeniería Biomédica
 
-**Laboratorio:** Laboratorio 2 - LAB001
+**Laboratorio:** Laboratorio 2 
 
 ***Integrantes:***
 
