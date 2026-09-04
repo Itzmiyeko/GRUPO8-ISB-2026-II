@@ -41,15 +41,7 @@ En el dominio temporal se identificaron los principales elementos de la morfolog
 
 La frecuencia de muestreo determina la frecuencia máxima observable según el criterio de Nyquist:
 
-\[
-f_{Nyquist}=\frac{f_s}{2}
-\]
-
-Para \(f_s=250\) Hz:
-
-\[
-f_{Nyquist}=125\ Hz
-\]
+fNyquist= fs/2
 
 ## 2. Análisis frecuencial mediante FFT
 
