@@ -106,8 +106,6 @@ Para evaluar el desempeño del filtrado se agregó una interferencia sinusoidal 
 La señal contaminada se modeló como:
 <img width="742" height="225" alt="image" src="https://github.com/user-attachments/assets/7f64a5c4-d53c-4cdc-9545-410e75d56c38" />
 
-noise = A*np.sin(2* np.pi * f_noise * t)
-ecg_contaminated = ecg_clean + noise
 
 <img width="1106" height="382" alt="image" src="https://github.com/user-attachments/assets/b542ce4f-1d51-43b8-8ecc-3dd21d97a0ed" />
 
@@ -120,6 +118,7 @@ A partir de este análisis se diseñó un filtro Butterworth pasa-bajas de:
 - Filtrado: `sosfiltfilt`
 
 La frecuencia de corte se seleccionó por debajo de la interferencia de 35 Hz, buscando reducir el ruido y conservar la mayor parte de la información fisiológica del ECG.
+<img width="880" height="368" alt="image" src="https://github.com/user-attachments/assets/1f39f24d-9a59-420d-bb4b-a90e21c611e7" />
 
 ## 5. Validación del filtrado
 
