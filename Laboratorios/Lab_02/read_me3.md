@@ -147,9 +147,7 @@ Se utilizó una frecuencia de corte de **5 Hz**. Como consecuencia, el complejo 
 
 El MSE aumentó hasta:
 
-\[
 MSE=2.715*10^{-2}
-\]
 
 Esto demuestra que una frecuencia de corte demasiado baja puede eliminar información fisiológica relevante.
 
@@ -172,7 +170,7 @@ A través de la función de transferencia se pueden estudiar los **polos, ceros,
 
 La relación con Fourier se obtiene evaluando la función de transferencia sobre el círculo unitario:
 
-z=e^{j\omega}
+<img width="110" height="55" alt="image" src="https://github.com/user-attachments/assets/90ef7232-1e8d-49c6-a1ee-8362bc4f1880" />
 
 Por ello:
 
