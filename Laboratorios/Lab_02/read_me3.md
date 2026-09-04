@@ -109,6 +109,8 @@ La señal contaminada se modeló como:
 x[n]=ECG[n]+A\sin(2\pi f_{noise}t)
 \]
 
+<img width="1106" height="382" alt="image" src="https://github.com/user-attachments/assets/b542ce4f-1d51-43b8-8ecc-3dd21d97a0ed" />
+
 Mediante la FFT se identificó un pico de interferencia aproximadamente en **35 Hz**.
 
 A partir de este análisis se diseñó un filtro Butterworth pasa-bajas de:
