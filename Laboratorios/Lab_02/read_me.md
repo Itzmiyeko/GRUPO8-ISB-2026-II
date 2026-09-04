@@ -124,7 +124,7 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 
 ---
 
-## <u>**Lab002: Introduccion Señales Biomedicas PhysioNet ** </u>
+## <u>**Lab002: Introduccion Señales Biomedicas PhysioNet** </u>
  
 
 **Registro Seleccionado:** 16272
