@@ -392,8 +392,15 @@ Por ello:
 
 ## Conclusiones de los laboratorios
 **LAB001**
-  1. La identificación correcta de una señal biomédica en PhysioNet requiere siempre especificar tanto la **base de datos** como el **número de registro**, ya que el mismo identificador de registro puede tener significados distintos en diferentes bases de datos.
-  2. La frecuencia de muestreo (`fs = 360 Hz`) determina la resolución temporal de la señal: a mayor `fs`, mayor capacidad de capturar detalles finos de la morfología del ECG (como el complejo QRS); a menor `fs`, se corre el riesgo de perder información relevante.
-  3. Las distintas formas de visualización (señal completa, segmento ampliado, histograma y representación discreta) aportan información complementaria: la vista temporal permite evaluar ritmo y morfología, el histograma resume la distribución estadística de amplitudes, y la vista discreta hace explícito el carácter muestreado (`x[n]`) de toda señal biomédica digital.
-  4. Las estadísticas básicas (media, desviación estándar, mínimo, máximo y rango) permiten caracterizar cuantitativamente la señal, aunque no sustituyen el análisis morfológico visual, ya que no conservan información sobre la secuencia temporal de los eventos.
-  5. Convertir un ECG a formato WAV es posible porque ambas son señales digitales. La conversión a formato WAV facilita la exploración auditiva del ritmo cardiaco, aunque con pérdida de la información morfológica fina que sí se aprecia en la representación gráfica.
+  - La identificación correcta de una señal biomédica en PhysioNet requiere siempre especificar tanto la **base de datos** como el **número de registro**, ya que el mismo identificador de registro puede tener significados distintos en diferentes bases de datos.
+  - La frecuencia de muestreo (`fs = 360 Hz`) determina la resolución temporal de la señal: a mayor `fs`, mayor capacidad de capturar detalles finos de la morfología del ECG (como el complejo QRS); a menor `fs`, se corre el riesgo de perder información relevante.
+  - Las distintas formas de visualización (señal completa, segmento ampliado, histograma y representación discreta) aportan información complementaria: la vista temporal permite evaluar ritmo y morfología, el histograma resume la distribución estadística de amplitudes, y la vista discreta hace explícito el carácter muestreado (`x[n]`) de toda señal biomédica digital.
+  - Las estadísticas básicas (media, desviación estándar, mínimo, máximo y rango) permiten caracterizar cuantitativamente la señal, aunque no sustituyen el análisis morfológico visual, ya que no conservan información sobre la secuencia temporal de los eventos.
+  - Convertir un ECG a formato WAV es posible porque ambas son señales digitales. La conversión a formato WAV facilita la exploración auditiva del ritmo cardiaco, aunque con pérdida de la información morfológica fina que sí se aprecia en la representación gráfica.
+
+**LAB002**
+  - El análisis temporal es esencial para observar directamente la forma de las ondas del ECG y evaluar el ritmo cardíaco, pero por sí solo no permite aislar ruidos o componentes de frecuencia superpuestos.  
+  - La FFT es una herramienta muy útil para conocer las frecuencias principales de la señal y eliminar componentes no deseadas (como el offset DC), aunque tiene la limitación de no mostrar en qué momento ocurre cada frecuencia.  
+  - La STFT es el método más completo para señales biomédicas variables en el tiempo, ya que logra equilibrar la resolución en tiempo y frecuencia, permitiendo identificar eventos transitorios y artefactos localizados.
+
+**LAB003**
