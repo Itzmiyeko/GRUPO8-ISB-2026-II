@@ -1,6 +1,6 @@
-# INFORMES DE LABORATORIO 2 — INTRODUCCIÓN A LAS SEÑALES MÉDICAS
+# INFORMES DE LABORATORIO 2 — INTRODUCCIÓN A SEÑALES BIOMÉDICAS
 
-**Universidad:** Universidad Peruana Cayetano Heredia — Ingeniería Biomédica
+**Facultad - Carrera:** Facultad de Ciencias e Ingeniería — Ingeniería Biomédica
 
 **Laboratorio:** Laboratorio 2 - LAB001
 
@@ -18,11 +18,13 @@
 
 **Profesores**:
 
-- Moises Meza
+- Moisés Meza
 
 - José Cáceres
 
-## <u>**Lab001** </u>
+---
+
+## <u>**Lab001:Introduccion Señales Biomedicas PhysioNet** </u>
 
 ### 1. Identificación de la base de datos
 
@@ -122,7 +124,7 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 
 ---
 
-## <u>**Lab002** </u>
+## <u>**Lab002: Introduccion Señales Biomedicas PhysioNet ** </u>
  
 
 **Registro Seleccionado:** 16272
@@ -208,10 +210,9 @@ Por último, el **espectrograma de la STFT** muestra unas franjas verticales del
 > 5. **Efecto de una ventana muy grande:** Mejora la resolución en frecuencia, pero la resolución temporal empeora y los latidos se ven borrosos en el tiempo.  
 > 6. **Efecto de una ventana muy pequeña:** Mejora la precisión en el tiempo, pero la resolución en frecuencia se vuelve muy baja y las bandas se ven muy anchas.
 
-
 ---
 
-## <u>**Lab003** </u>
+## <u>**Lab003: Introducción a Filtros FIR, IIR, y Transformada Z** </u>
 ### Introducción
 
 En este laboratorio se realizó el análisis y procesamiento digital de una señal ECG con el objetivo de identificar sus principales componentes frecuenciales, detectar interferencias y diseñar filtros digitales que permitan reducir el ruido sin perder información fisiológica relevante.
@@ -404,3 +405,11 @@ Por ello:
   - La STFT es el método más completo para señales biomédicas variables en el tiempo, ya que logra equilibrar la resolución en tiempo y frecuencia, permitiendo identificar eventos transitorios y artefactos localizados.
 
 **LAB003**
+
+  - El laboratorio permitió comprobar que el diseño de un filtro para señales biomédicas debe basarse en un análisis previo de la señal y no en la eliminación indiscriminada de frecuencias.
+  
+  - La FFT permitió identificar las componentes frecuenciales y detectar la interferencia de **35 Hz**, a partir de la cual se seleccionó una frecuencia de corte de **25 Hz** para recuperar el ECG contaminado.
+  
+  - La comparación FIR-IIR mostró que ambos filtros pueden reducir componentes no deseadas, pero presentan diferencias en realimentación, orden, fase, estabilidad y costo computacional.
+  
+  - Finalmente, las métricas obtenidas mostraron una mejora significativa después del filtrado, aumentando el SNR de **5.10 dB a 28.39 dB**, mientras se conservó la morfología general del ECG. Por ello, la validación debe considerar simultáneamente el análisis temporal, frecuencial y cuantitativo para asegurar que el ruido sea reducido sin perder información fisiológica relevante.
