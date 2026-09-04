@@ -1,4 +1,4 @@
-# Informe de Laboratorio 2 — Introducción a Señales Biomédicas
+# INFORMES DE LABORATORIO 2 — INTRODUCCIÓN A LAS SEÑALES MÉDICAS
 
 **Universidad:** Universidad Peruana Cayetano Heredia — Ingeniería Biomédica
 
@@ -16,4 +16,4 @@
 
 **- VIVIANA NINOSKA RIVERA GUILLEN**
 
-## **LAB001**
+# **Lab001**
