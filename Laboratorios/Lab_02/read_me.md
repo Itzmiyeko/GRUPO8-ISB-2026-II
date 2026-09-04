@@ -113,3 +113,6 @@ La media positiva (≈0.10 mV) refleja que la señal pasa más tiempo en la fase
 - El histograma confirma que la mayor parte del tiempo la señal permanece cerca de la línea basal, y que los valores extremos (positivos y negativos) son eventos poco frecuentes pero de gran amplitud, correspondientes a los complejos QRS y a la fase de repolarización (onda T).
 - La representación discreta evidencia que, pese a la apariencia "continua" de las Gráficas 1 y 2, la señal ECG es en realidad una **secuencia de muestras discretas** `x[n]` tomadas cada 2.78 ms, y que la fidelidad de la forma de onda depende directamente de `fs`.
 - Al convertir la señal a formato WAV se preserva la variación temporal de amplitud, pero se pierde la posibilidad de interpretar visualmente la morfología de las ondas P, QRS y T; el análisis auditivo permite únicamente percibir la periodicidad del ritmo cardiaco, no su morfología clínica.
+
+## <u>**Lab002** </u>
+
