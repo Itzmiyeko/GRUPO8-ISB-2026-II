@@ -24,7 +24,7 @@
 
 ---
 
-## <u>**Lab001:Introduccion Señales Biomedicas PhysioNet** </u>
+## <u>**Lab001: Introducción Señales Biomedicas PhysioNet** </u>
 
 ### 1. Identificación de la base de datos
 
