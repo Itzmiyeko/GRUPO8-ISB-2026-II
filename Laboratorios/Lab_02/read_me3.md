@@ -165,17 +165,14 @@ El uso de `sosfiltfilt` permite realizar un filtrado de fase cero, evitando este
 
 La Transformada Z permitió analizar los filtros como sistemas discretos mediante su función de transferencia:
 
-\[
-H(z)=\frac{Y(z)}{X(z)}
-\]
+
+H(z)=Y(z)/X(z)
 
 A través de la función de transferencia se pueden estudiar los **polos, ceros, estabilidad y respuesta en frecuencia**.
 
 La relación con Fourier se obtiene evaluando la función de transferencia sobre el círculo unitario:
 
-\[
 z=e^{j\omega}
-\]
 
 Por ello:
 
