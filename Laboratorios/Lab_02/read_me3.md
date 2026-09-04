@@ -104,7 +104,9 @@ Para evaluar el desempeño del filtrado se agregó una interferencia sinusoidal 
 - Frecuencia: **35 Hz**
 
 La señal contaminada se modeló como:
-noise = A * np.sin(2* np.pi * f_noise * t)
+<img width="742" height="225" alt="image" src="https://github.com/user-attachments/assets/7f64a5c4-d53c-4cdc-9545-410e75d56c38" />
+
+noise = A*np.sin(2* np.pi * f_noise * t)
 ecg_contaminated = ecg_clean + noise
 
 <img width="1106" height="382" alt="image" src="https://github.com/user-attachments/assets/b542ce4f-1d51-43b8-8ecc-3dd21d97a0ed" />
