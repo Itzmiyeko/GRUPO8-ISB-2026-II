@@ -125,6 +125,8 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
 
     
   * Movimiento Opuesto
+    <img width="1022" height="832" alt="image" src="https://github.com/user-attachments/assets/49e9a6bc-2a08-47a6-9a4f-94ee8c99938a" />
+
 
 ### Archivos
 
