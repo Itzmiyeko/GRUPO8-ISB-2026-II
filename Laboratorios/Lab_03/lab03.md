@@ -128,3 +128,26 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
 
 ### Archivos
 ### Resumen y explicación de la señal
+
+2. Señales EMG del músculo abductor del pulgar
+   a. Reposo:
+   En la condición de reposo se observa una señal EMG con una amplitud relativamente baja y estable durante aproximadamente 31 segundos. No se presentan cambios bruscos de amplitud como los observados durante los movimientos.
+
+La actividad registrada corresponde principalmente a la actividad eléctrica basal del músculo, además de posibles componentes de ruido y desplazamiento de la línea de base de la señal.
+b. Movimiento leve:
+En las tres mediciones de movimiento leve se observa claramente un incremento de la amplitud de la señal EMG respecto al reposo.
+Por ejemplo, en la primera medición:
+Al inicio la amplitud es relativamente pequeña.
+Aproximadamente entre 8 y 13 s se observa un aumento considerable.
+Luego la señal vuelve progresivamente hacia niveles menores.
+En las mediciones 2 y 3 también aparece un incremento importante de la amplitud durante la ejecución del movimiento.
+c. Movimiento con fuerza contraria:
+En las tres mediciones aparece un incremento importante de la amplitud. En particular, se observan valores que alcanzan aproximadamente ±1 a ±1.5 mV, mientras que durante el reposo la amplitud visualmente es mucho menor.
+La actividad aumenta progresivamente durante una parte importante de cada registro y posteriormente disminuye.
+
+         Condición	Actividad EMG observada	Interpretación
+    Reposo     	   Baja amplitud	Baja activación muscular
+  Movimiento leve	   Amplitud mayor	Mayor activación para ejecutar el movimiento
+Fuerza contraria   	Amplitud considerablemente mayor	Mayor activación muscular para vencer la resistencia
+
+Al comparar las tres condiciones, se observa que la actividad eléctrica del músculo abductor del pulgar aumenta conforme aumenta la exigencia del movimiento. En reposo se registra una señal de menor amplitud, mientras que durante el movimiento leve la amplitud aumenta. Finalmente, durante el movimiento con fuerza contraria se obtiene la mayor amplitud de la señal, lo que evidencia una mayor activación muscular.
