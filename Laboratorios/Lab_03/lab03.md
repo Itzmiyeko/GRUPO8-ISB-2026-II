@@ -116,15 +116,15 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
 
 **2.Señales del musculo del pulgar:** 
   * Reposo
-  <img width="1467" height="385" alt="image" src="https://github.com/user-attachments/assets/10b1227b-1928-4c96-b33f-da84107cf429" />
+<img width="1441" height="395" alt="image" src="https://github.com/user-attachments/assets/16b39798-0835-4b34-a512-33aee91289a7" />
 
       
   * Movimiento Leve
-   <img width="875" height="622" alt="image" src="https://github.com/user-attachments/assets/bd847afb-11e9-49e6-8d7b-f094a32cefc6" />
+  <img width="698" height="586" alt="image" src="https://github.com/user-attachments/assets/428dfe30-8467-4591-9eda-6b5eb0ae05f2" />
 
     
   * Movimiento Opuesto
-    <img width="1022" height="832" alt="image" src="https://github.com/user-attachments/assets/49e9a6bc-2a08-47a6-9a4f-94ee8c99938a" />
+   <img width="732" height="560" alt="image" src="https://github.com/user-attachments/assets/254d3745-857d-4d1a-a9bd-bfa4d39d21f0" />
 
 
 ### Archivos
