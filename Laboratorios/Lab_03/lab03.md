@@ -22,6 +22,11 @@
 
 
 ### Video de señal
+1. Video de la señal del biceps
+   
+
+https://github.com/user-attachments/assets/388064dc-3f96-470d-be18-31ba369073b5
+
 
 ### Ploteo de la señal en OpenSignals
 **1.Señales del biceps:** 
