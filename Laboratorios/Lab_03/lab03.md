@@ -32,6 +32,8 @@
 
     
   * Movimiento Opuesto
+
+
 **2.Señales del musculo del pulgar:** 
   * Reposo
   
