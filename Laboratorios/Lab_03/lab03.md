@@ -45,8 +45,8 @@
     
     <div align="center">
 <img width="1896" height="125" alt="Opo1_brazo" src="https://github.com/user-attachments/assets/dfac770f-07f0-463f-aa3a-0ca9626eef40" />
-
     </div> 
+
 
 **2.Señales del musculo del pulgar:** 
   * Reposo
