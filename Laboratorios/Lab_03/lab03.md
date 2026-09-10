@@ -27,6 +27,16 @@
 
 https://github.com/user-attachments/assets/388064dc-3f96-470d-be18-31ba369073b5
 
+2. Video de la señal del pulgar
+   
+
+https://github.com/user-attachments/assets/47313070-4606-488b-8ca7-22d7f4bfdfad
+
+
+
+https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
+
+
 
 ### Ploteo de la señal en OpenSignals
 **1.Señales del biceps:** 
