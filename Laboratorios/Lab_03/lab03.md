@@ -127,6 +127,11 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
   * Movimiento Opuesto
 
 ### Archivos
+
+* Programa de ploteo (Jupyter Notebook)
+   1. [Biceps](https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Laboratorios/Lab_03/analisis_bitalino_biceps.ipynb)
+   2. [Abductor del pulgar](https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Laboratorios/Lab_03/analisis_bitalino_pulgar.ipynb)
+  
 ### Resumen y explicación de la señal
 
 2. Señales EMG del músculo abductor del pulgar:
