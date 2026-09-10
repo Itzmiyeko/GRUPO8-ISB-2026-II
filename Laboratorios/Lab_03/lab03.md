@@ -122,6 +122,7 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
   
       
   * Movimiento Leve
+   <img width="875" height="622" alt="image" src="https://github.com/user-attachments/assets/bd847afb-11e9-49e6-8d7b-f094a32cefc6" />
 
     
   * Movimiento Opuesto
