@@ -72,8 +72,6 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
     
     <div align="center">
    <img width="1916" height="136" alt="rep2" src="https://github.com/user-attachments/assets/e4156017-9b23-4127-b988-2509b2c9c0f4" />
-
-  
     </div> 
       
   * Movimiento Leve
@@ -82,8 +80,6 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
     
     <div align="center">
    <img width="1892" height="137" alt="leve_pulgar" src="https://github.com/user-attachments/assets/5fdc1f78-b272-4972-90c0-0ec78bedfabd" />
-
-  
     </div> 
     
   * Movimiento Opuesto
@@ -92,8 +88,6 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
     
     <div align="center">
    <img width="1917" height="137" alt="opo_pulgar" src="https://github.com/user-attachments/assets/bb4e1f7c-9451-4af8-8b61-b903b62e4dc2" />
-
-  
     </div> 
 
 ### Ploteo de la señal en Python
