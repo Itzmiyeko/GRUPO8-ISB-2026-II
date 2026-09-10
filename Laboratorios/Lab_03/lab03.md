@@ -97,18 +97,27 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
   
     <div align="center">
     <img width="989" height="299" alt="WhatsApp Image 2026-09-10 at 10 40 08 AM" src="https://github.com/user-attachments/assets/2e124cfa-4046-4599-ae7c-943f5538ca13" />
-  
+
+    ->
+  <img width="642" height="155" alt="image" src="https://github.com/user-attachments/assets/836b500d-1f5c-4a9a-a39b-fa2b9bc47fd0" />
+
     </div>
     
   * Movimiento Leve
     <div align="center">
     <img width="988" height="886" alt="WhatsApp Image 2026-09-10 at 10 40 09 AM" src="https://github.com/user-attachments/assets/2a8392b9-5b4b-4750-b873-f133b878b83f" />
-  
+  -> 
+  <img width="912" height="672" alt="image" src="https://github.com/user-attachments/assets/f2585ee1-4763-43e6-8615-281d354f1638" />
+
     </div>
     
   * Movimiento Opuesto
     <div align="center">
   <img width="989" height="886" alt="WhatsApp Image 2026-09-10 at 10 40 09 AM (2)" src="https://github.com/user-attachments/assets/cd9fba6a-ec08-4a08-ae8d-47d456e11618" />
+->
+
+  <img width="775" height="547" alt="image" src="https://github.com/user-attachments/assets/f852ff30-13ea-45a7-915f-2ca228c80db9" />
+
     </div>
 
 **2.Señales del musculo del pulgar:** 
