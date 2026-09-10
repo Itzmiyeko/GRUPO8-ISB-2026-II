@@ -26,23 +26,47 @@
 ### Ploteo de la señal en OpenSignals
 **1.Señales del biceps:** 
   * Reposo
-  
+    En un intervalo de tiempo de 10 segundos:
+    
+    <div align="center">
+    <img width="1832" height="152" alt="rep1" src="https://github.com/user-attachments/assets/b9c1d1f8-153d-4145-a8b0-c5402e308f3d" />
+    </div> 
     
   * Movimiento Leve
-
+    En un intervalo de tiempo de 10 segundos:
+    
+    <div align="center">
+    <img width="1917" height="121" alt="leve1_brazo" src="https://github.com/user-attachments/assets/974262ce-05aa-4b3c-8306-c3d092e3341f" />  
+    </div> 
     
   * Movimiento Opuesto
+    
+    En un intervalo de tiempo de 10 segundos:
+    
+    <div align="center">
+<img width="1896" height="125" alt="Opo1_brazo" src="https://github.com/user-attachments/assets/dfac770f-07f0-463f-aa3a-0ca9626eef40" />
 
+    </div> 
 
 **2.Señales del musculo del pulgar:** 
   * Reposo
+
+    <div align="center">
+
   
+    </div> 
       
   * Movimiento Leve
+    <div align="center">
 
+  
+    </div> 
     
   * Movimiento Opuesto
+    <div align="center">
 
+  
+    </div> 
 
 ### Ploteo de la señal en Python
 
