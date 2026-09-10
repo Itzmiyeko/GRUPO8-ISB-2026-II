@@ -26,6 +26,7 @@
 ### Ploteo de la señal en OpenSignals
 **1.Señales del biceps:** 
   * Reposo
+    
     En un intervalo de tiempo de 10 segundos:
     
     <div align="center">
@@ -33,6 +34,7 @@
     </div> 
     
   * Movimiento Leve
+    
     En un intervalo de tiempo de 10 segundos:
     
     <div align="center">
