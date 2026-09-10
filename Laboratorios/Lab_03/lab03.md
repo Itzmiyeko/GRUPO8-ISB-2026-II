@@ -41,7 +41,7 @@
     
   * Movimiento Opuesto
     
-    En un intervalo de tiempo de 10 segundos:
+    En un intervalo de tiempo de 20 segundos:
     
     <div align="center">
 <img width="1896" height="125" alt="Opo1_brazo" src="https://github.com/user-attachments/assets/dfac770f-07f0-463f-aa3a-0ca9626eef40" />
