@@ -144,10 +144,4 @@ En las mediciones 2 y 3 también aparece un incremento importante de la amplitud
 c. Movimiento con fuerza contraria:
 En las tres mediciones aparece un incremento importante de la amplitud. En particular, se observan valores que alcanzan aproximadamente ±1 a ±1.5 mV, mientras que durante el reposo la amplitud visualmente es mucho menor.
 La actividad aumenta progresivamente durante una parte importante de cada registro y posteriormente disminuye.
-
-         Condición	Actividad EMG observada	Interpretación
-    Reposo     	   Baja amplitud	Baja activación muscular
-  Movimiento leve	   Amplitud mayor	Mayor activación para ejecutar el movimiento
-Fuerza contraria   	Amplitud considerablemente mayor	Mayor activación muscular para vencer la resistencia
-
 Al comparar las tres condiciones, se observa que la actividad eléctrica del músculo abductor del pulgar aumenta conforme aumenta la exigencia del movimiento. En reposo se registra una señal de menor amplitud, mientras que durante el movimiento leve la amplitud aumenta. Finalmente, durante el movimiento con fuerza contraria se obtiene la mayor amplitud de la señal, lo que evidencia una mayor activación muscular.
