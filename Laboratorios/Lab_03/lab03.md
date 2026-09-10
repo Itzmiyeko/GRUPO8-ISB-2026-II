@@ -129,9 +129,9 @@ https://github.com/user-attachments/assets/e2eb4bf3-17f6-4228-84bb-cafdc206dc85
 ### Archivos
 ### Resumen y explicación de la señal
 
-2. Señales EMG del músculo abductor del pulgar
-   a. Reposo:
+2. Señales EMG del músculo abductor del pulgar:
    
+   a. Reposo:
 En la condición de reposo se observa una señal EMG con una amplitud relativamente baja y estable durante aproximadamente 31 segundos. No se presentan cambios bruscos de amplitud como los observados durante los movimientos.
 La actividad registrada corresponde principalmente a la actividad eléctrica basal del músculo, además de posibles componentes de ruido y desplazamiento de la línea de base de la señal.
 
