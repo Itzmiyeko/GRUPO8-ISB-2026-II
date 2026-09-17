@@ -76,13 +76,7 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 ### Fotos de conexión usada.
 
 
-### Videos de las señales en cada actividad
-|                 **Modelo**                 | **Video** |
-|:------------------------------------------:|:---------:|
-|                **Reposo**                |Insertar video aqui (borrar luego este texto)|
-|            **Hiperventilación** |Insertar video aqui (borrar luego este texto)|
-|                **Hipoventilación**                |Insertar video aqui (borrar luego este texto)|
-|       **Actividad aeróbica**       |Insertar video aqui (borrar luego este texto)|
+### Video de la señal en reposo
 
 
 ### Ploteo de la señal en OpenSignals
