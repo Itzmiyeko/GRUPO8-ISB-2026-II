@@ -17,6 +17,8 @@
 
 </div>
 
+## **Procedimiento**
+
 ## **Resultados**
 ### Fotos de conexión usada (Electrodos-cuerpo, BITalino-cables).
 
