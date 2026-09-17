@@ -24,7 +24,8 @@ Los electrodos fueron colocados en zonas con baja actividad muscular específica
 
 Figura 1. Ubicación de los electrodos y configuración de las derivaciones I, II y III de Einthoven.
 
-<img width="516" height="161" alt="image" src="https://github.com/user-attachments/assets/3d67087c-48a4-42e1-9230-96af131b9587" />
+<img width="2170" height="725" alt="image" src="https://github.com/user-attachments/assets/bc13abd4-603f-4cfc-bbcd-5f8e61f96c17" />
+
 
 ## Configuración de las derivaciones de Einthoven
 Una vez colocados los tres electrodos en las posiciones corporales correspondientes, se configuró el sensor para realizar las adquisiciones mediante las tres derivaciones de Einthoven: DI, DII y DIII. Estas derivaciones permiten registrar la actividad eléctrica cardíaca desde diferentes orientaciones en el plano frontal, ya que cada una mide una diferencia de potencial entre dos puntos determinados del cuerpo.
