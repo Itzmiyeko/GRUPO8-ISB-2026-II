@@ -175,7 +175,7 @@ La señal registrada en condición de reposo, correspondiente a la derivación D
 - La onda P, que refleja la despolarización auricular y aparece como una deflexión pequeña y suave antes de cada complejo
 - Complejo QRS, correspondiente a la despolarización ventricular, que se observa como el pico de mayor amplitud de la señal, con una excursión que va desde aproximadamente -0.6 mV hasta 1.0 mV; y - La onda T, ligeramente posterior al complejo QRS, que representa la repolarización ventricular y se manifiesta como una onda de menor amplitud y mayor duración que la onda P. 
 
-La separación entre picos R consecutivos (intervalo R-R) se mantiene notablemente constante a lo largo de toda la ventana de 15 segundos analizada, con un valor aproximado de 0.6 segundos entre latidos, lo que genera en total 25 picos en la DII que corresponde a una frecuencia cardíaca de aproximadamente 100 latidos por minuto. Este valor se encuentra dentro del rango fisiológico normal de reposo, aunque en el extremo superior de dicho rango, lo cual podría explicarse por factores como el nerviosismo propio de la medición experimental o la posición del sujeto durante el registro. 
+La separación entre picos R consecutivos (intervalo R-R) se mantiene notablemente constante a lo largo de toda la ventana de 15 segundos analizada, con un valor aproximado de 0.6 segundos entre latidos, lo que genera en total 25 picos en la DII que corresponde a una **frecuencia cardíaca ~ 100 lpm**. Este valor se encuentra dentro del rango fisiológico normal de reposo, aunque en el extremo superior de dicho rango, lo cual podría explicarse por factores como el nerviosismo propio de la medición experimental o la posición del sujeto durante el registro. 
 Es importante destacar que la señal filtrada prácticamente se superpone a la señal original en toda la ventana temporal, evidenciando que el registro presentaba un nivel de ruido basal muy bajo en la DII, consistente con la ausencia de movimiento del sujeto y con un buen contacto entre los electrodos y la piel.
 
 ### 2. Hiperventilación
@@ -192,7 +192,7 @@ La señal filtrada sigue muy de cerca a la señal original, pero presenta una ap
 En DII, tomando dos ondas R consecutivas de la gráfica, el intervalo R-R es aproximadamente:
 R−R ≈ 0.53s
 Por lo que la frecuencia cardíaca aproximada sería:
-FC ≈ 60/0.53 ≈ 113 lpm
+**FC ≈ 60/0.53 ≈ 113 lpm**
 
 Esto corresponde a una señal con latidos relativamente frecuentes durante el registro de hiperventilación.
 
@@ -216,7 +216,7 @@ Los complejos QRS aparecen de forma repetitiva y relativamente regular. La seña
 En DII, el intervalo R-R observado es aproximadamente:
 R−R ≈ 0.55s
 y la frecuencia cardíaca estimada:
-FC ≈ 60/0.55 ≈ 109 lpm
+**FC ≈ 60/0.55 ≈ 109 lpm**
 
 Por lo tanto, durante el registro de hipoventilación se observa una frecuencia cardíaca aproximada de 109 lpm.
 
@@ -234,7 +234,7 @@ A diferencia de la hiperventilación, durante la contención de la respiración 
 
 La señal obtenida durante la condición de actividad aeróbica muestra cambios morfológicos y de ritmo claramente asociados a la respuesta fisiológica al ejercicio. 
 
-El intervalo R-R se reduce considerablemente respecto al registro de reposo, situándose en aproximadamente 0.42 segundos, generando un total 35 picos en 15 segundos lo que se traduce en una frecuencia cardíaca cercana a 140 latidos por minuto, reflejando la taquicardia sinusal esperada como respuesta simpática al esfuerzo físico.
+El intervalo R-R se reduce considerablemente respecto al registro de reposo, situándose en aproximadamente 0.42 segundos, generando un total 35 picos en 15 segundos lo que se traduce en una **FC ~ 140 lpm**, reflejando la taquicardia sinusal esperada como respuesta simpática al esfuerzo físico.
 
 La morfología de la onda P se vuelve considerablemente más difícil de distinguir del ruido de fondo, dado que su amplitud es intrínsecamente menor que la del complejo QRS y se ve más afectada por las variaciones de la línea de base. 
 
