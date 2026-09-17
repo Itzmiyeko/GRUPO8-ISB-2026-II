@@ -89,10 +89,10 @@
 * [Programa de ploteo (Jupyter Notebook)]()
 
   
-### Resumen y explicación de la señal
+## Resumen y explicación de la señal
 
 
-### Preguntas
+## Preguntas de la guía del Bitalino ECG
 
 P1. ¿Cuáles son los tipos de fuentes de ruido más típicos que afectan al ECG?
 
