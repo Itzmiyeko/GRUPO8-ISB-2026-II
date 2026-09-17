@@ -77,6 +77,13 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 
 
 ### Video de la señal en reposo
+     
+|                 **Modelo**                 | **Video** |
+|:------------------------------------------:|:---------:|
+|                **Estado Basal**                |hola|
+| **Hiperventilación** |vd|
+|                **Hipoventilación**                |jdjsj|
+|       **Actividad física**       |njejnje|
 
 
 ### Ploteo de la señal en OpenSignals
