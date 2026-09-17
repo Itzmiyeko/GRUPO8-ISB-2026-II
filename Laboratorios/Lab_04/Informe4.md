@@ -169,6 +169,15 @@ A continuación, se presenta el análisis las actividades realizadas en la prueb
 <p>Figura 6. Señal de Reposo DII con intervalos, segmentos y ondas</p>
 </div>
 
+En las gráficas mostradas en resultados se puede observar que las tres derivaciones presentan ondas P y T complejos QRS claramente definidos siendo DII y DIII las que permiten visualizar mejor la morfología del ECG debido a la orientación posicional con el corazón.
+
+La señal registrada en condición de reposo, correspondiente a la derivación DII, presenta una morfología característica y fácilmente reconocible de un electrocardiograma normal, en la cual pueden identificarse con claridad los tres componentes fundamentales de cada ciclo cardíaco: 
+- La onda P, que refleja la despolarización auricular y aparece como una deflexión pequeña y suave antes de cada complejo
+- Complejo QRS, correspondiente a la despolarización ventricular, que se observa como el pico de mayor amplitud de la señal, con una excursión que va desde aproximadamente -0.6 mV hasta 1.0 mV; y - La onda T, ligeramente posterior al complejo QRS, que representa la repolarización ventricular y se manifiesta como una onda de menor amplitud y mayor duración que la onda P. 
+
+La separación entre picos R consecutivos (intervalo R-R) se mantiene notablemente constante a lo largo de toda la ventana de 15 segundos analizada, con un valor aproximado de 0.6 segundos entre latidos, lo que genera en total 25 picos en la DII que corresponde a una frecuencia cardíaca de aproximadamente 100 latidos por minuto. Este valor se encuentra dentro del rango fisiológico normal de reposo, aunque en el extremo superior de dicho rango, lo cual podría explicarse por factores como el nerviosismo propio de la medición experimental o la posición del sujeto durante el registro. 
+Es importante destacar que la señal filtrada prácticamente se superpone a la señal original en toda la ventana temporal, evidenciando que el registro presentaba un nivel de ruido basal muy bajo en la DII, consistente con la ausencia de movimiento del sujeto y con un buen contacto entre los electrodos y la piel.
+
 ### 2. Hiperventilación
 
 <div align="center">
@@ -222,6 +231,18 @@ A diferencia de la hiperventilación, durante la contención de la respiración 
 
 <p>Figura. Señal de actividad aeróbica DII con intervalos, segmentos y ondas</p>
 </div>
+
+La señal obtenida durante la condición de actividad aeróbica muestra cambios morfológicos y de ritmo claramente asociados a la respuesta fisiológica al ejercicio. 
+
+El intervalo R-R se reduce considerablemente respecto al registro de reposo, situándose en aproximadamente 0.42 segundos, generando un total 35 picos en 15 segundos lo que se traduce en una frecuencia cardíaca cercana a 140 latidos por minuto, reflejando la taquicardia sinusal esperada como respuesta simpática al esfuerzo físico.
+
+La morfología de la onda P se vuelve considerablemente más difícil de distinguir del ruido de fondo, dado que su amplitud es intrínsecamente menor que la del complejo QRS y se ve más afectada por las variaciones de la línea de base. 
+
+El complejo QRS, por su parte, sigue siendo identificable en todos los ciclos, pero su amplitud deja de ser constante: se observan variaciones notorias entre un latido y otro, oscilando entre aproximadamente 0.7 mV y 1.2 mV, lo cual no corresponde a una variabilidad fisiológica real del corazón, sino a artefactos de movimiento generados por el desplazamiento de los electrodos sobre la piel durante la actividad física, que modifican momentáneamente la impedancia de contacto. 
+
+Debido a la actividad del ejercicio, la onda P y la onda T aparecen seguidos con un acercamiento demasiado considerable. Este desajuste se debe a que el espacio total de cada latido (el R-R) se reduce mucho, el espacio que ocupa la onda T dentro de ese latido se reduce menos, por lo que la onda T "invade" una porción proporcionalmente mayor del ciclo. Al mismo tiempo, el llenado diastólico (el período entre el final de un latido y el inicio de la despolarización auricular del siguiente) también se acorta con la taquicardia, lo que hace que la siguiente onda P aparezca más pronto después de la onda T anterior. La combinación de ambos efectos (una onda T que ocupa relativamente más espacio y una onda P que llega relativamente antes) provoca que ambas terminen visualmente muy próximas entre sí, e incluso pueden llegar a superponerse parcialmente. Este fenómeno es conocido clínicamente como **"P sobre T" (P-on-T)** y ese suele encontrar en registros de taquicardia sinusal fisiológica como la inducida por ejercicio, sin que esto implique necesariamente una alteración patológica.
+
+Asimismo, se observa una deriva de la línea base (baseline wander) más pronunciada e irregular que en los registros anteriores, atribuible tanto al aumento de la frecuencia respiratoria como al movimiento del tórax durante el ejercicio. En este caso, la señal filtrada y la señal original tampoco muestran una diferencia visual marcada, lo cual sugiere que el filtro pasa-banda utilizado no resulta igual de efectivo para atenuar el tipo de artefacto dominante en esta condición, que corresponde principalmente a interferencia de movimiento en un rango de frecuencias que se superpone parcialmente con el de la propia señal cardíaca.
 
 ## Preguntas de la guía del Bitalino ECG
 
