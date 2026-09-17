@@ -38,7 +38,7 @@ Tabla 1. Configuración de los electrodos y conexiones de los cables para las de
 | -------------- | ---------------------------- | ---------------------------- | --------------------------------- | ---------------------------------------------- |
 | **DI**         | Clavícula izquierda          | Clavícula derecha            | Cresta ilíaca izquierda           | Entre el brazo izquierdo y el brazo derecho    |
 | **DII**        | Cresta ilíaca izquierda      | Clavícula derecha            | Clavícula izquierda               | Entre la pierna izquierda y el brazo derecho   |
-| **DIII**       | Clavícula izquierda          | Cresta ilíaca izquierda      | Clavícula derecha                 | Entre la pierna izquierda y el brazo izquierdo |
+| **DIII**       | Cresta ilíaca izquierda      | Clavícula izquierda          | Clavícula derecha                 | Entre la pierna izquierda y el brazo izquierdo |
 
 ## Adquisición de la lectura basal
 Una vez realizada la configuración inicial del sistema, se inició la adquisición de la señal mediante el software OpenSignals (r)evolution. Primero se obtuvo una lectura basal durante aproximadamente 30 segundos, manteniendo al participante en reposo y con respiración normal. Durante esta etapa se procuró mantener el cuerpo estable para obtener una señal con el menor nivel posible de ruido y utilizarla como referencia para las condiciones posteriores.
