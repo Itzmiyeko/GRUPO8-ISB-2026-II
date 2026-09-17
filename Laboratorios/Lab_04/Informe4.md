@@ -150,7 +150,51 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 
   
 ## Resumen y explicación de la señal
+### 2. Hiperventilación
 
+<div align="center">
+<img width="1200" alt="Señal de ECG durante hiperventilación" src="../../Imágenes/Hiperventilacion.png" />
+<p>Figura 6. Señal de hiperventilación DIII con intervalos, segmentos y ondas</p>
+</div>
+
+En la gráfica de hiperventilación se observa que las tres derivaciones presentan complejos QRS claramente definidos, siendo DII y DIII las que permiten visualizar mejor la morfología del ECG. La derivación DI presenta una amplitud mucho menor y una mayor presencia de ruido. Estas diferencias se deben a que cada derivación registra la actividad eléctrica del corazón desde una orientación diferente, por lo que la misma actividad cardíaca puede presentar distintas amplitudes en DI, DII y DIII.
+
+La señal filtrada sigue muy de cerca a la señal original, pero presenta una apariencia más limpia. Esto permite distinguir mejor los complejos cardíacos. Las pequeñas fluctuaciones que permanecen en la señal pueden estar relacionadas con ruido de adquisición, actividad muscular o movimientos durante la respiración.
+
+En DII, tomando dos ondas R consecutivas de la gráfica, el intervalo R-R es aproximadamente:
+R−R ≈ 0.53s
+Por lo que la frecuencia cardíaca aproximada sería:
+FC ≈ 60/0.53 ≈ 113 lpm
+
+Esto corresponde a una señal con latidos relativamente frecuentes durante el registro de hiperventilación.
+
+El aumento de la frecuencia respiratoria durante la hiperventilación puede influir en la frecuencia cardíaca debido a la relación entre la respiración y el sistema nervioso autónomo. Por ello, pueden presentarse variaciones en los intervalos R-R durante el registro. Asimismo, al realizar respiraciones más rápidas y profundas, aumenta el movimiento del tórax, lo que puede generar pequeñas variaciones de la línea de base y artefactos en la señal ECG.
+
+En esta condición, el complejo QRS es el componente más fácil de identificar debido a su mayor amplitud. La onda P se encuentra antes del QRS y la onda T después de este, aunque presentan menor amplitud y pueden ser menos evidentes en algunas partes de la señal.
+
+
+### 3.Hipoventilación
+
+<div align="center">
+<img width="1200" alt="Señal de ECG durante hipoventilación" src="../../Imágenes/Hipoventilacion.png" />
+<p>Figura 7. Señal de hipoventilación DII con intervalos, segmentos y ondas</p>
+</div>
+
+
+En la gráfica de hipoventilación también se identifican los componentes principales del ECG. Nuevamente, DII y DIII presentan una morfología más evidente, mientras que DI muestra una señal de menor amplitud. Esto se relaciona con la orientación de cada derivación respecto a la actividad eléctrica cardíaca.
+
+Los complejos QRS aparecen de forma repetitiva y relativamente regular. La señal filtrada conserva la forma general de la señal original, reduciendo parte de las fluctuaciones y del ruido, por lo que permite identificar con mayor facilidad los complejos cardíacos.
+
+En DII, el intervalo R-R observado es aproximadamente:
+R−R ≈ 0.55s
+y la frecuencia cardíaca estimada:
+FC ≈ 60/0.55 ≈ 109 lpm
+
+Por lo tanto, durante el registro de hipoventilación se observa una frecuencia cardíaca aproximada de 109 lpm.
+
+La hipoventilación o contención de la respiración modifica temporalmente el patrón respiratorio y el intercambio de gases. Esto puede generar una respuesta del organismo que influya en la actividad del sistema nervioso autónomo y como consecuencia, producir variaciones en la frecuencia cardíaca y en el intervalo R-R. Además, cuando se vuelve a respirar después de la contención, pueden presentarse cambios transitorios en la señal.
+
+A diferencia de la hiperventilación, durante la contención de la respiración existe inicialmente menos movimiento del tórax, por lo que la señal puede presentar menos variaciones producidas por la respiración. Sin embargo, todavía pueden observarse pequeñas variaciones debido al movimiento del cuerpo, los electrodos y el ruido de la medición.
 
 ## Preguntas de la guía del Bitalino ECG
 
