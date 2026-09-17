@@ -1,4 +1,4 @@
-# Informe 3  - Aplicación del BiTalino en ECG
+# Informe 4  - Aplicación del BiTalino en ECG
 ## **Objetivos**
 * Adquirir señales biomédicas de ECG en derivadas bipolares (DI, DII, DIII).
 * Hacer una correcta configuración de BiTalino.
