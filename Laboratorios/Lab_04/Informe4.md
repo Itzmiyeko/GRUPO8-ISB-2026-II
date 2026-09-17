@@ -24,7 +24,7 @@ Los electrodos fueron colocados en zonas con baja actividad muscular específica
 
 Figura 1. Ubicación de los electrodos y configuración de las derivaciones I, II y III de Einthoven.
 
-<img width="2170" height="725" alt="image" src="https://github.com/user-attachments/assets/bc13abd4-603f-4cfc-bbcd-5f8e61f96c17" />
+<img width="989" height="469" alt="image" src="https://github.com/user-attachments/assets/0ab45eba-cbac-47a0-9a64-2ddb1d7f8412" />
 
 
 ## Configuración de las derivaciones de Einthoven
