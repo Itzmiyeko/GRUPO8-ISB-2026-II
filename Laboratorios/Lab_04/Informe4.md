@@ -1,4 +1,4 @@
-# Informe 4  - Aplicación del BiTalino en ECG
+ # Informe 4  - Aplicación del BiTalino en ECG
 ## **Objetivos**
 * Adquirir señales biomédicas de ECG en derivadas bipolares (DI, DII, DIII).
 * Hacer una correcta configuración de BiTalino.
@@ -18,6 +18,23 @@
 </div>
 
 ## **Procedimiento**
+## Preparación del sistema y colocación de los electrodos
+Al incio el labortorio se preparó el sistema BITalino utilizando el sensor de electrocardiografía (ECG) y tres electrodos adhesivos de Ag/AgCl. El sensor ECG cuenta con dos cables de medición, correspondientes a IN+ e IN−, y un cable de referencia (REF). Para el montaje empleado, estos cables correspondieron al cable rojo (IN+), negro (IN−) y blanco (REF).
+Los electrodos fueron colocados en zonas con baja actividad muscular específicamente sobre las regiones correspondientes a ambas clavículas y la cresta ilíaca izquierda, de esta forma disminuye la interferencia producida por la actividad muscular y los artefactos asociados al movimiento durante la adquisición del ECG.
+Figura 1. Ubicación de los electrodos y configuración de las derivaciones I, II y III de Einthoven.
+<img width="516" height="161" alt="image" src="https://github.com/user-attachments/assets/3d67087c-48a4-42e1-9230-96af131b9587" />
+
+## Configuración de las derivaciones de Einthoven
+Una vez colocados los tres electrodos en las posiciones corporales correspondientes, se configuró el sensor para realizar las adquisiciones mediante las tres derivaciones de Einthoven: DI, DII y DIII. Estas derivaciones permiten registrar la actividad eléctrica cardíaca desde diferentes orientaciones en el plano frontal, ya que cada una mide una diferencia de potencial entre dos puntos determinados del cuerpo.
+
+Para obtener cada derivación, se modificó la conexión de los cables IN+, IN− y REF entre los tres electrodos . La configuración utilizada se presenta en la siguiente tabla:
+Tabla 1. Configuración de los electrodos y conexiones de los cables para las derivaciones DI, DII y DIII.
+| **Derivación** | **Electrodo positivo (IN+)** | **Electrodo negativo (IN−)** | **Electrodo de referencia (REF)** | **Diferencia de potencial registrada**         |
+| -------------- | ---------------------------- | ---------------------------- | --------------------------------- | ---------------------------------------------- |
+| **DI**         | Clavícula izquierda          | Clavícula derecha            | Cresta ilíaca izquierda           | Entre el brazo izquierdo y el brazo derecho    |
+| **DII**        | Cresta ilíaca izquierda      | Clavícula derecha            | Clavícula izquierda               | Entre la pierna izquierda y el brazo derecho   |
+| **DIII**       | Clavícula izquierda          | Cresta ilíaca izquierda      | Clavícula derecha                 | Entre la pierna izquierda y el brazo izquierdo |
+ 
 
 ## **Resultados**
 ### Fotos de conexión usada.
