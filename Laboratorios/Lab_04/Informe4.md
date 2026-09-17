@@ -152,6 +152,23 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 
   
 ## Resumen y explicación de la señal
+
+Las señales ECG fueron extraídas del módulo BiTalino, los cuales posteriormente de su adquisición, se analizo en Python. Como primer paso se extrae la señal cruda en valores de mV. Posteriormente se crea funciones de filtros para que la señal ECG se pueda observar de manera más nitida las señales y para eliminar también el ruido y las interferencias que contaminan la señal eléctrica del corazón, permitiendo obtener un trazo limpio y fácil de interpretar.
+
+Los filtros que se emplearon fueron los siguientes:
+1. Filtro pasa-altos (0.5 Hz) — para eliminar el baseline wander (deriva de la línea base), causado por la respiración, el movimiento de electrodos y el sudor.
+2. Filtro pasa-bajos (40 Hz para monitoreo) — para eliminar ruido de alta frecuencia, principalmente interferencia muscular (EMG) captada por los mismos electrodos.
+3. Filtro notch (rechazo de banda) de 60 Hz — para eliminar la interferencia de la red eléctrica con un factor de calidad de 30, para que ancho de banda de atenuación sea corta (2 Hz).
+
+A continuación, se presenta el análisis las actividades realizadas en la prueba:
+
+### 1. Estado Basal (Reposo)
+
+<div align="center">
+<img width="792" height="235" alt="ReposoDII" src="https://github.com/user-attachments/assets/15c30c8c-ea93-4179-8584-fcc6a5755d55" />
+<p>Figura 6. Señal de Reposo DII con intervalos, segmentos y ondas</p>
+</div>
+
 ### 2. Hiperventilación
 
 <div align="center">
@@ -197,6 +214,14 @@ Por lo tanto, durante el registro de hipoventilación se observa una frecuencia 
 La hipoventilación o contención de la respiración modifica temporalmente el patrón respiratorio y el intercambio de gases. Esto puede generar una respuesta del organismo que influya en la actividad del sistema nervioso autónomo y como consecuencia, producir variaciones en la frecuencia cardíaca y en el intervalo R-R. Además, cuando se vuelve a respirar después de la contención, pueden presentarse cambios transitorios en la señal.
 
 A diferencia de la hiperventilación, durante la contención de la respiración existe inicialmente menos movimiento del tórax, por lo que la señal puede presentar menos variaciones producidas por la respiración. Sin embargo, todavía pueden observarse pequeñas variaciones debido al movimiento del cuerpo, los electrodos y el ruido de la medición.
+
+### 4. Actividad aeróbica
+
+<div align="center">
+<img width="791" height="220" alt="act1" src="https://github.com/user-attachments/assets/e030071e-5608-4235-a5bb-43ca4707ddf1" />
+
+<p>Figura. Señal de actividad aeróbica DII con intervalos, segmentos y ondas</p>
+</div>
 
 ## Preguntas de la guía del Bitalino ECG
 
