@@ -20,11 +20,16 @@
 ## **Procedimiento**
 
 ## **Resultados**
-### Fotos de conexión usada (Electrodos-cuerpo, BITalino-cables).
+### Fotos de conexión usada.
 
 
-### Video de señal en reposo
-
+### Videos de las señales en cada actividad
+|                 **Modelo**                 | **Video** |
+|:------------------------------------------:|:---------:|
+|                **Reposo**                |Insertar video aqui (borrar luego este texto)|
+|            **Hiperventilación** |Insertar video aqui (borrar luego este texto)|
+|                **Hipoventilación**                |Insertar video aqui (borrar luego este texto)|
+|       **Actividad aeróbica**       |Insertar video aqui (borrar luego este texto)|
 
 
 ### Ploteo de la señal en OpenSignals
