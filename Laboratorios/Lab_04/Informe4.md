@@ -76,7 +76,7 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 ### Fotos de conexión usada.
 
 
-### Video de la señal en reposo
+### Video de las señales
      
 |                 **Modelo**                 | **Video** |
 |:------------------------------------------:|:---------:|
