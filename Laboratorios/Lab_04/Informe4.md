@@ -1,3 +1,11 @@
+
+
+https://github.com/user-attachments/assets/7befa3d8-5ed9-41a5-a36f-59deccecba2d
+
+
+
+https://github.com/user-attachments/assets/447b49d1-6abd-4963-87cd-89f9e9c373d7
+
  # Informe 4  - Aplicación del BiTalino en ECG
 ## **Objetivos**
 * Adquirir señales biomédicas de ECG en derivadas bipolares (DI, DII, DIII).
@@ -82,7 +90,11 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 |                 **Modelo**                 | **Video** |
 |:------------------------------------------:|:---------:|
 |                **Estado Basal**                |hola|
-| **Hiperventilación** |vd|
+| **Hiperventilación** |
+
+https://github.com/user-attachments/assets/df74c54f-26fa-4c61-bec9-2364473be8a4
+
+|
 |                **Hipoventilación**                |jdjsj|
 |       **Actividad física**       |njejnje|
 
