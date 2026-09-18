@@ -285,13 +285,39 @@ Asimismo, se observa una deriva de la línea base (baseline wander) más pronunc
 
 P1. ¿Cuáles son los tipos de fuentes de ruido más típicos que afectan al ECG?
 
+Las señales de ECG pueden verse afectadas por diferentes tipos de ruido. Entre los más frecuentes se encuentran la interferencia eléctrica de la red de 50/60 Hz, los artefactos producidos por el movimiento del paciente o de los electrodos y la actividad eléctrica de los músculos cercanos. También pueden presentarse variaciones lentas de la línea de base debido a la respiración o a movimientos corporales. Asimismo, un contacto inadecuado entre los electrodos y la piel puede generar alteraciones en la señal debido a cambios en la impedancia. Estos factores pueden provocar oscilaciones, distorsiones o señales adicionales que dificultan la correcta identificación de las ondas del ECG.
+
 P2. ¿Por qué el cambio en la posición de los sensores (derivaciones I-III) modifica las componentes de la señal de ECG? ¿Cómo cambian estas componentes?
+
+El cambio de posición de los electrodos modifica la señal registrada porque cada derivación permite observar la actividad eléctrica del corazón desde una dirección diferente. Las derivaciones I, II y III corresponden a diferentes combinaciones de electrodos ubicados en las extremidades y forman el denominado triángulo de Einthoven. Como la actividad eléctrica cardíaca tiene una dirección y magnitud, cada derivación registra una proyección diferente del vector eléctrico cardíaco sobre su propio eje. Por eso al cambiar de derivación puede variar la morfología de las señales (ondas T, ondas P, complejo QRS), pero la frecuencia cardíaca y el intervalo temporal entre los latidos no deberían cambiar significativamente únicamente por cambiar de derivación, porque el corazón sigue produciendo los mismos ciclos eléctricos; lo que cambia es la perspectiva desde la cual se registran.
 
 P3. Describe si existen diferencias significativas en la señal al registrarla desde distintas ubicaciones del cuerpo (por ejemplo, muñeca / clavícula / pecho). ¿Cuál podría ser la causa? ¿Esperabas esos cambios en la señal? Guarda un segmento de señal de cada una para visualizar las diferencias.
 
-P4. Es bien sabido que los sistemas cardíaco y respiratorio están profundamente interconectados. ¿Esperas que los diferentes tipos de respiración (por ejemplo, más rápida o más profunda) influyan en las señales de ECG? Muestra capturas de pantalla de señales de ECG en distintas circunstancias respiratorias y describe las variaciones, si las hay.
+Sí pueden presentarse diferencias en la señal de ECG cuando los electrodos se colocan en distintas partes del cuerpo. Esto se debe principalmente a que la ubicación y orientación de los electrodos determinan la dirección y la magnitud de la actividad eléctrica cardíaca que puede ser registrada.
+
+Además, factores como la distancia entre los electrodos y el corazón, la impedancia de contacto con la piel, el grosor de los tejidos y la actividad muscular de la zona pueden modificar la señal obtenida. Por esta razón, es esperable encontrar diferencias en la amplitud, polaridad, morfología y estabilidad de la señal al realizar registros desde la muñeca, clavícula o pecho.
+
+P4. Es bien sabido que los sistemas cardíaco y respiratorio están profundamente interconectados. ¿Esperas que los diferentes tipos de respiración (por ejemplo, más rápida o más profunda) influyan en las señales de ECG? 
+
+Los diferentes patrones respiratorios pueden producir cambios en la señal de ECG. La respiración puede generar variaciones en la frecuencia cardíaca, fenómeno conocido como arritmia sinusal respiratoria, en el que la frecuencia cardíaca suele aumentar durante la inspiración y disminuir durante la espiración.
+
+Además, una respiración profunda puede producir movimientos del tórax que modifican ligeramente la posición del corazón respecto a los electrodos. Como consecuencia, pueden observarse variaciones en la amplitud de las ondas, desplazamientos de la línea de base y cambios en los intervalos entre los complejos QRS. Una respiración rápida también puede aumentar los artefactos asociados al movimiento y dificultar la identificación de las diferentes componentes del ECG.
 
 P5. En la Home-Guide #1 (guía anterior sobre EMG) viste que distintas cantidades de fuerza producidas en el músculo generaban señales con diferentes amplitudes. ¿Cómo influye el movimiento en tu señal de ECG?
 
+El movimiento puede afectar considerablemente la señal de ECG y producir artefactos de movimiento.
+Cuando una persona se mueve, pueden cambiar tanto la posición de los electrodos como el contacto entre estos y la piel. Además, los músculos que participan en el movimiento generan actividad eléctrica que puede ser captada por los electrodos y mezclarse con la actividad cardíaca. 
+
+Por lo que, pueden aparecer fluctuaciones de la línea de base, cambios repentinos en la amplitud y señales de alta frecuencia que dificultan la identificación de las ondas P, QRS y T. Por lo tanto, una señal registrada durante el movimiento generalmente presenta mayor cantidad de ruido que una obtenida cuando la persona permanece en reposo.
+
 P6. Según tu conocimiento, ¿cómo se pueden detectar la bradicardia y la taquicardia en la señal de ECG?
 
+La bradicardia y la taquicardia pueden identificarse mediante el cálculo de la frecuencia cardíaca a partir de los intervalos R-R del ECG. Para ello, primero se identifican las ondas R y se determina el tiempo transcurrido entre dos ondas R consecutivas.
+
+La frecuencia cardíaca puede calcularse mediante:
+**FC= 60 / RR**
+donde
+FC: frecuencia cardíaca en latidos por minutos
+RR: intervalo entre dos ondas R consecutivas, expresado en segundos.
+
+En términos generales, en adultos en reposo, una frecuencia cardíaca persistentemente menor de 60 LPM se denomina bradicardia y una mayor de 100 LPM se denomina taquicardia.
