@@ -91,7 +91,7 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
 | **Actividad física**       |https://github.com/user-attachments/assets/b020044e-0b05-47d3-8ba2-7904e104d2bc|
 
 
-### Ploteo de la señal en OpenSignals
+### Ploteo de la señal en Python
 **Señal cruda:** 
   * Reposo
     
@@ -127,7 +127,7 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
     <div align="center">
     </div> 
 
-### Ploteo de la señal en Python
+### Ploteo de la señal en OpenSignals
 
 **Señal original y filtrada:**
 
@@ -192,7 +192,7 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
 
 ### Archivos
 
-* [Programa de ploteo (Jupyter Notebook)]()
+* [Programa de ploteo (Jupyter Notebook)](https://github.com/Itzmiyeko/GRUPO8-ISB-2026-II/blob/main/Laboratorios/Lab_04/analisis_bitalino_ECG.ipynb)
 
   
 ## Resumen y explicación de la señal
