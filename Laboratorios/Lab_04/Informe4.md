@@ -134,24 +134,56 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
   * Reposo
     
     En un intervalo de tiempo de 15 segundos:
+    Derivada 1:
+    <img width="1532" height="155" alt="WhatsApp Image 2026-09-17 at 10 35 11 PM" src="https://github.com/user-attachments/assets/8b6f1b1d-56ad-485b-8d41-e0ac99bcd2c7" />
+
+    Derivada 2:
+    <img width="1540" height="145" alt="WhatsApp Image 2026-09-17 at 10 38 34 PM" src="https://github.com/user-attachments/assets/4c2e872e-8185-404b-8445-8bf3a2409519" />
+
+    Derivada 3:
+    <img width="1450" height="137" alt="WhatsApp Image 2026-09-17 at 10 39 35 PM" src="https://github.com/user-attachments/assets/b29225a8-2b4e-4ff1-9ab5-cd0298ff1dcc" />
 
     
   * Hiperventilación
     
     En un intervalo de tiempo de 15 segundos:
-    
+    Derivada 1:
+    <img width="1437" height="135" alt="WhatsApp Image 2026-09-17 at 10 43 21 PM" src="https://github.com/user-attachments/assets/65256440-4247-4ce4-921a-d92b7c21476c" />
+
+    Derivada 2:
+    <img width="1432" height="148" alt="WhatsApp Image 2026-09-17 at 10 46 17 PM" src="https://github.com/user-attachments/assets/9691c449-6a16-4627-a3c0-f630a7759001" />
+
+    Derivada 3:
+    <img width="1428" height="138" alt="WhatsApp Image 2026-09-17 at 10 46 39 PM" src="https://github.com/user-attachments/assets/556aa6ec-ef85-460b-8f61-357aac9ffb68" />
+
     <div align="center">
     </div> 
     
   * Hipoventilación
     
     En un intervalo de tiempo de 15 segundos:
-    
+    Derivada 1:
+    <img width="1431" height="133" alt="WhatsApp Image 2026-09-17 at 10 49 15 PM (1)" src="https://github.com/user-attachments/assets/005aa39d-ad44-4bf4-9051-fafe2cb66c49" />
+
+    Derivada 2:
+    <img width="1436" height="141" alt="WhatsApp Image 2026-09-17 at 10 49 34 PM" src="https://github.com/user-attachments/assets/a29cc513-871e-4785-bba7-b0a8edc6398a" />
+
+    Derivada 3:
+    <img width="1442" height="147" alt="WhatsApp Image 2026-09-17 at 10 49 55 PM" src="https://github.com/user-attachments/assets/c9454354-11ba-40b6-8c32-fc399fbf9444" />
+
     <div align="center">
     </div> 
 
   * Actividad aeróbica
-    
+    Derivada 1:
+    <img width="1600" height="120" alt="WhatsApp Image 2026-09-17 at 10 40 49 PM" src="https://github.com/user-attachments/assets/2bd5ce7a-80e1-4ce7-893a-248563c57d10" />
+
+    Derivada 2:
+    <img width="1600" height="129" alt="WhatsApp Image 2026-09-17 at 10 41 07 PM" src="https://github.com/user-attachments/assets/6feb980e-1749-4e1e-9aee-91b2212afdf1" />
+
+    Derivada 3:
+    <img width="1440" height="142" alt="WhatsApp Image 2026-09-17 at 10 41 33 PM" src="https://github.com/user-attachments/assets/5b790d7c-9e1d-4474-a305-6e196dcfcae6" />
+
     En un intervalo de tiempo de 15 segundos:
     
     <div align="center">
