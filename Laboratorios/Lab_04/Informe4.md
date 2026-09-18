@@ -96,14 +96,17 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
   * Reposo
     
     En un intervalo de tiempo de 15 segundos:
-  
+  <img width="989" height="886" alt="WhatsApp Image 2026-09-17 at 9 22 29 PM" src="https://github.com/user-attachments/assets/ed67c19d-21fe-48c1-a885-8e0840381fa3" />
+
+
     <div align="center">
     </div> 
 
-  * Hiperventilación
+  * Hiperventilación *
     
     En un intervalo de tiempo de 15 segundos:
    
+<img width="989" height="886" alt="WhatsApp Image 2026-09-17 at 9 22 30 PM (2)" src="https://github.com/user-attachments/assets/7cd75a91-e4c9-47dd-91ad-ba9d5b9eab68" />
 
     <div align="center">
     </div> 
@@ -111,14 +114,16 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
   * Hipoventilación
     
     En un intervalo de tiempo de 15 segundos:
-    
+    <img width="989" height="886" alt="WhatsApp Image 2026-09-17 at 9 22 30 PM (3)" src="https://github.com/user-attachments/assets/26b07a00-b23f-4a41-8c9d-fce113bb1b24" />
+
     <div align="center">
     </div> 
 
   * Actividad aeróbica
     
     En un intervalo de tiempo de 15 segundos:
-    
+    <img width="989" height="886" alt="WhatsApp Image 2026-09-17 at 9 22 31 PM" src="https://github.com/user-attachments/assets/3eb51923-cda6-4269-9d53-0f63ff4129e1" />
+
     <div align="center">
     </div> 
 
