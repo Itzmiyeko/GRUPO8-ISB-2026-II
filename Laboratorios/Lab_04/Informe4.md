@@ -96,13 +96,14 @@ En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los el
   * Reposo
     
     En un intervalo de tiempo de 15 segundos:
-
-    <img width="1200" height="1600" alt="WhatsApp Image 2026-09-16 at 10 46 14 PM" src="https://github.com/user-attachments/assets/06182224-e93d-4b7b-821e-cf1499a5e770" />
+  
+    <div align="center">
+    </div> 
 
   * Hiperventilación
     
     En un intervalo de tiempo de 15 segundos:
-    <img width="989" height="886" alt="WhatsApp Image 2026-09-17 at 9 22 30 PM" src="https://github.com/user-attachments/assets/96258d5b-6b64-44a4-9027-b65ba827b464" />
+   
 
     <div align="center">
     </div> 
