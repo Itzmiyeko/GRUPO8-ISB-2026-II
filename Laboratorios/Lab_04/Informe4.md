@@ -75,6 +75,8 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 
 
 ## **Resultados**
+Adquisición de la señal:
+En esta etapa, Renzo se encuentra sentado en posición de reposo mientras los electrodos se encuentran conectados al cuerpo y al dispositivo BITalino. El compañero encargado de la medición verifica la conexión de los electrodos y mantiene el sistema conectado para registrar la actividad eléctrica cardíaca. La señal obtenida posteriormente puede ser visualizada y analizada para evaluar el comportamiento del ECG bajo las diferentes condiciones de estudio.
 ### Fotos de conexión usada.
 <img width="1200" height="1600" alt="WhatsApp Image 2026-09-16 at 10 46 14 PM" src="https://github.com/user-attachments/assets/053f6700-743c-4436-b8b2-ec4d992ee142" />
 
