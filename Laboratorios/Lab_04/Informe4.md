@@ -85,7 +85,7 @@ Figura 5. Realización de la actividad aeróbica previa a la adquisición de la 
 | **Estado Basal**                |https://github.com/user-attachments/assets/4c234303-b353-4a03-8289-7dc64226a08e|
 | **Hiperventilación** |https://github.com/user-attachments/assets/aa3f9aa3-8d5c-40ec-a191-4021a1ad339a|
 | **Hipoventilación**                |https://github.com/user-attachments/assets/62409879-16e9-47a0-b563-6f2dafa9705e|
-| **Actividad física**       |https://github.com/user-attachments/assets/9c580dca-0188-4115-8bb6-e0d36e3645f2|
+| **Actividad física**       |https://github.com/user-attachments/assets/b020044e-0b05-47d3-8ba2-7904e104d2bc|
 
 
 ### Ploteo de la señal en OpenSignals
