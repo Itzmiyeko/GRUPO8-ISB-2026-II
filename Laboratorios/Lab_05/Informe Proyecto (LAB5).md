@@ -65,7 +65,6 @@ La viabilidad de este abordaje se sustenta en que los protocolos de adquisición
 
 Finalmente, el uso de electromiografía en el gastrocnemio se justifica porque las señales eléctricas son sensibles a las variaciones biomecánicas impuestas por la técnica del ballet. Por ejemplo, el estudio de Massó et al. comprobó que la actividad de este músculo cambia de forma significativa según la posición adoptada (como en sexta frente a primera posición) y ante errores técnicos como la pronación del pie. Asimismo, la investigación de Erdman et al. demuestra que el registro neuromuscular permite identificar diferencias objetivas en la activación de las extremidades cuando existen compensaciones posturales. Por lo tanto, el abordaje con señales es apropiado porque traduce las adaptaciones mecánicas y posicionales del bailarín en parámetros eléctricos medibles [9].
 
-
 El uso combinado de señales electromiográficas (EMG) e Inteligencia Artificial (IA) resulta viable para evaluar el esfuerzo muscular durante la ejecución del plié-relevé, debido a que la actividad eléctrica del músculo puede ser registrada de manera objetiva y transformada en características cuantificables.
 
 En particular, el gastrocnemio es un músculo relevante para el relevé. Estudios previos han demostrado que su actividad electromiográfica puede registrarse durante este movimiento y que presenta variaciones dependiendo de la posición y de las condiciones de ejecución. Massó et al. estudiaron la actividad muscular durante el relevé y observaron una participación importante del gastrocnemio, mientras que otros trabajos han demostrado que la fatiga durante el relevé puede producir modificaciones en la actividad muscular y en el control del movimiento.[10]
@@ -78,9 +77,6 @@ Además, la viabilidad tecnológica se ve respaldada por trabajos previos que ha
 
 Finalmente, el empleo de un dispositivo portátil como BITalino permite trasladar este principio a un sistema de adquisición más accesible y no invasivo. Por tanto, la propuesta integra una señal biomédica objetivamente medible, características cuantificables y un modelo de IA para obtener una clasificación del esfuerzo muscular, constituyendo una metodología viable para estudiar la respuesta del gastrocnemio durante el plié-relevé. 
 
-
-
-**…**
 
 ### **Referencias**  
 [1] R. M. Valles Pow Sang, «La apología del dolor dentro de la práctica pedagógica y su influencia en la salud del cuerpo de los estudiantes de danza en América durante las últimas décadas», Repositorio Pontificia Universidad Católica del Perú \- Facultad Artes Escénicas. Accedido: 24 de septiembre de 2026\. \[En línea\]. Disponible en: [https://tesis.pucp.edu.pe/items/546f879e-5df3-4713-a540-c9dc998dc2cf](https://tesis.pucp.edu.pe/items/546f879e-5df3-4713-a540-c9dc998dc2cf)  
