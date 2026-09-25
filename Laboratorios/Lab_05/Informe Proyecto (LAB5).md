@@ -80,6 +80,8 @@ Finalmente, el empleo de un dispositivo portátil como BITalino permite traslada
 
 [Presentación del Proyecto](https://drive.google.com/file/d/1yP_rFsUHuU8ra2A3br7llDFNCZUyDzKB/view?usp=drive_link)
 
+
+
 **Referencias**  
 \[1\] R. M. Valles Pow Sang, «La apología del dolor dentro de la práctica pedagógica y su influencia en la salud del cuerpo de los estudiantes de danza en América durante las últimas décadas», Repositorio Pontificia Universidad Católica del Perú \- Facultad Artes Escénicas. Accedido: 24 de septiembre de 2026\. \[En línea\]. Disponible en: [https://tesis.pucp.edu.pe/items/546f879e-5df3-4713-a540-c9dc998dc2cf](https://tesis.pucp.edu.pe/items/546f879e-5df3-4713-a540-c9dc998dc2cf)  
 \[2\] A. Lu, V. Dande, O. Viswanath, y L. Ganti, «Biomechanics and Injury Risk in Dance: A Bibliometric Analysis», *Orthop Rev (Pavia)*, vol. 18, p. 167317, ago. 2026, doi: 10.52965/001c.167317.  
