@@ -68,11 +68,8 @@ Finalmente, el uso de electromiografía en el gastrocnemio se justifica porque l
 
 El uso combinado de señales electromiográficas (EMG) e Inteligencia Artificial (IA) resulta viable para evaluar el esfuerzo muscular durante la ejecución del plié-relevé, debido a que la actividad eléctrica del músculo puede ser registrada de manera objetiva y transformada en características cuantificables.
 
-<<<<<<< HEAD
-En particular, el gastrocnemio es un músculo relevante para el relevé. Estudios previos han demostrado que su actividad electromiográfica puede registrarse durante este movimiento y que presenta variaciones dependiendo de la posición y de las condiciones de ejecución. Massó et al. estudiaron la actividad muscular durante el relevé y observaron una participación importante del gastrocnemio, mientras que otros trabajos han demostrado que la fatiga durante el relevé puede producir modificaciones en la actividad muscular y en el control del movimiento.\[10\]
-=======
+
 En particular, el gastrocnemio es un músculo relevante para el relevé. Estudios previos han demostrado que su actividad electromiográfica puede registrarse durante este movimiento y que presenta variaciones dependiendo de la posición y de las condiciones de ejecución. Massó et al. estudiaron la actividad muscular durante el relevé y observaron una participación importante del gastrocnemio, mientras que otros trabajos han demostrado que la fatiga durante el relevé puede producir modificaciones en la actividad muscular y en el control del movimiento.[10]
->>>>>>> ariana_lozano
 
 A partir de la señal EMG es posible obtener características que describen cuantitativamente la actividad muscular, como RMS, MAV, WL, MNF y MDF. Estas características permiten representar cada ejecución mediante variables numéricas que pueden utilizarse como entradas para un modelo de IA. En el proyecto, estas variables serán asociadas con el nivel de esfuerzo percibido mediante la escala CR-10, generando un dataset etiquetado para el entrenamiento del modelo. 
 
