@@ -95,3 +95,4 @@ Link de Canva: [https://canva.link/fs95k2xpalg7gjo](https://canva.link/fs95k2xpa
 [10] L. Chen et al., “Application of Surface Electromyography in Exercise Fatigue: A Review,” BioMed Research International, 2022. 
 [11] A. Phinyomark et al., “EMG feature evaluation for muscle fatigue detection,” [puedes utilizarlo como referencia para las características de EMG]. 
 [12] Y. Chen et al., “Information fusion and multi-classifier system for miner fatigue recognition in plateau environments based on electrocardiography and electromyography signals,” BMC Public Health, 2021. 
+
