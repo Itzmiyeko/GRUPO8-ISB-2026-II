@@ -92,7 +92,10 @@ Link de Canva: [https://canva.link/fs95k2xpalg7gjo](https://canva.link/fs95k2xpa
 [7] M.-J. Kim and J.-H. Kim, “Comparison of lower limb muscle activation with ballet movements (releve and demi-plie) and general movements (heel rise and squat) in healthy adults” *Journal of Physical Therapy Science*, vol. 28, no. 1, pp. 223–226, 2016, doi: 10.1589/jpts.28.223   
 [8] N. Massó *et al*., “Study of Muscle Activity during Relevé in First and Sixth Positions,” *Journal of Dance Medicine & Science*, vol. 8, no. 4, pp. 101–107, 2004, doi: 10.1177/1089313X0400800401   
 [9] Erdman, A. L., Ulman, S., Dabis, J., Miller, S. M., Jones, J. C., Ellis, H. B., & Chung, J. S. (2023). Biomechanical comparison of pediatric female ballet dancers with and without pain. *Journal of Women's Sports Medicine*, 2769-4895.
+
 [10] L. Chen et al., “Application of Surface Electromyography in Exercise Fatigue: A Review,” BioMed Research International, 2022. 
-[11] A. Phinyomark et al., “EMG feature evaluation for muscle fatigue detection,” [puedes utilizarlo como referencia para las características de EMG]. 
+
+[11] A. Phinyomark et al., “EMG feature evaluation for muscle fatigue detection”
+
 [12] Y. Chen et al., “Information fusion and multi-classifier system for miner fatigue recognition in plateau environments based on electrocardiography and electromyography signals,” BMC Public Health, 2021. 
 
