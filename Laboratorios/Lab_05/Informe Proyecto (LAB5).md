@@ -60,8 +60,7 @@ Desde una perspectiva biomecánica, evaluar la fatiga o el esfuerzo durante el *
 
 La viabilidad de este abordaje se sustenta en que los protocolos de adquisición y procesamiento de señales electromiográficas ya se encuentran altamente estandarizados en la literatura científica. Específicamente, en el estudio de Massó et al., se validó la fiabilidad de registrar la actividad del gastrocnemio durante el *relevé* mediante electrodos bipolares superficiales dispuestos paralelamente a las fibras musculares. Dicho estudio demuestra gráficamente en sus registros (véase, por ejemplo, la transformación de la señal en su Figura 7 y las curvas de activación en su Figura 12\) que, al aplicar un filtrado digital de alta frecuencia (paso alto a 10 Hz) y el cálculo del Valor Cuadrático Medio (RMS), es posible aislar la señal de ruido y obtener un indicador confiable de la energía disipada por el músculo. Aunque investigaciones de esta magnitud emplean equipos de telemetría de laboratorio de alta gama, el principio metodológico que validan respalda directamente el uso de dispositivos de adquisición portátil como el BITalino contemplado en este proyecto, ya que permite replicar la captura de la señal eléctrica del gastrocnemio de forma limpia, no invasiva y compatible con la biomecánica del movimiento. 
 
-[<img width="700" height="600" alt="Captura de pantalla 2026-09-25 003353" src="https://github.com/user-attachments/assets/80a545ca-04fd-4dcc-a723-33f1bed99711" />
-][image1] 
+<img width="700" height="600" alt="Captura de pantalla 2026-09-25 003353" src="https://github.com/user-attachments/assets/80a545ca-04fd-4dcc-a723-33f1bed99711" />
 
 **Figura 1\.** Procesamiento de señal electromiográfica (RMS) y curvas de activación muscular del gastrocnemio durante el relevé (Massó et al.). 
 
