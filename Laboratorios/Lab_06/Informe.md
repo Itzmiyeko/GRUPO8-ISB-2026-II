@@ -36,6 +36,9 @@ La dinámica experimental se estructuró en cuatro etapas secuenciales:
 Lectura basal (Reposo inicial):
 Se solicitó al evaluado permanecer en un estado de tranquilidad inicial, intentando anular o minimizar la mayor cantidad de estímulos externos posibles (evitando ruidos y movimientos innecesarios) durante un intervalo aproximado de 1 a 2 minutos. Esta fase permite registrar la actividad cerebral de referencia de cada participante en condiciones de relajación base.
 
+<img width="1200" height="1600" alt="image" src="https://github.com/user-attachments/assets/26aacb11-4229-4c19-bf7a-d4a0302b2569" />
+
+
 Ciclos de apertura y cierre de ojos:
 Se le dio la indicación al evaluado de realizar 5 repeticiones alternadas de apertura y cierre de ojos. Cada transición se mantuvo por un lapso de 5 segundos, manteniendo la vista fija en un punto específico de referencia durante los momentos de apertura. Esta prueba clásica busca evidenciar la modulación de las ondas alfa, las cuales suelen incrementarse notablemente al cerrar los ojos y bloquear el estímulo visual.
 
