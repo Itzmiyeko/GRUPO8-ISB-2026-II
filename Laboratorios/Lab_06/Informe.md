@@ -19,3 +19,28 @@ La colocación de los electrodos se distribuye de la siguiente manera sobre el s
 - Electrodo de referencia física (REF): Se coloca en la zona ósea detrás de la oreja. Esta área sin actividad cerebral directa sirve como punto de apoyo neutral para estabilizar la lectura y reducir ruidos eléctricos externos.
   
   <img width="729" height="398" alt="image" src="https://github.com/user-attachments/assets/b3bab594-b5c8-499e-8151-7f73ad273c36" />
+
+# Materiales e instrumentos
+- Kit BITalino (Core BT): Plataforma biomédica inalámbrica empleada para la adquisición de la señal electroencefalográfica (EEG).
+- Batería de 3.7V: Fuente de alimentación portátil para el funcionamiento del kit BITalino.
+- Sensor de EEG y cable de referencia (1-lead electrode cable): Sensor especializado para     la captura de la actividad cerebral y cable auxiliar para el electrodo de referencia.
+- Electrodos de superficie descartables: Dispositivos adhesivos que se conectan a los pines   del sensor para captar la actividad eléctrica de manera no invasiva.
+- Software OpenSignals (r)evolution: Herramienta oficial utilizada para la configuración,     adquisición y visualización en tiempo real de las señales.
+- Laptop: Equipo de cómputo utilizado para ejecutar el software de registro y análisis de     datos.
+
+# Metodología y Procedimiento Experimental
+Para llevar a cabo el registro de la actividad electroencefalográfica (EEG), el estudio contempló la participación de dos evaluados bajo condiciones experimentales controladas. El protocolo consistió en someter a ambos participantes a una misma secuencia de estímulos y estados de reposo para posteriormente comparar la respuesta de sus ondas cerebrales ante distintas cargas cognitivas y sensoriales.
+
+La dinámica experimental se estructuró en cuatro etapas secuenciales:
+
+Lectura basal (Reposo inicial):
+Se solicitó al evaluado permanecer en un estado de tranquilidad inicial, intentando anular o minimizar la mayor cantidad de estímulos externos posibles (evitando ruidos y movimientos innecesarios) durante un intervalo aproximado de 1 a 2 minutos. Esta fase permite registrar la actividad cerebral de referencia de cada participante en condiciones de relajación base.
+
+Ciclos de apertura y cierre de ojos:
+Se le dio la indicación al evaluado de realizar 5 repeticiones alternadas de apertura y cierre de ojos. Cada transición se mantuvo por un lapso de 5 segundos, manteniendo la vista fija en un punto específico de referencia durante los momentos de apertura. Esta prueba clásica busca evidenciar la modulación de las ondas alfa, las cuales suelen incrementarse notablemente al cerrar los ojos y bloquear el estímulo visual.
+
+Preguntas complejas y marco de reflexión:
+Manteniendo al participante con un auricular puesto en un solo oído, se procedió a susurrarle un total de 5 preguntas de alta complejidad analítica. No se le solicitó una respuesta inmediata; por el contrario, se estableció un marco de reflexión de aproximadamente 20 a 30 segundos por pregunta para obligar al cerebro a un proceso de concentración profunda y resolución de problemas (estimulando la actividad en las ondas beta y theta).
+
+Estímulo musical comparativo (Opcional):
+Como fase complementaria, se expuso al evaluado a escuchar fragmentos musicales de contraste (aproximadamente entre 1 a 1 minuto y medio por género), comparando el impacto neurofisiológico de música relajante de tipo Lo-Fi frente a música más intensa o estridente.
