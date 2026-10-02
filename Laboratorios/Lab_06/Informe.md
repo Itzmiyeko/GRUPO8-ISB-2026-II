@@ -57,8 +57,7 @@ Gamma: >25 Hz → procesos cognitivos de alta demanda y concentración intensa.
 No necesariamente son iguales en todas las áreas del cerebro. La actividad EEG depende de la región cerebral y de la función que se esté realizando. Por ejemplo, la actividad frontal está relacionada con planificación, concentración, toma de decisiones y pensamiento activo, mientras que otras regiones tienen funciones diferentes.
 
 b. ¿Qué tipo de filtro es esencial al trabajar con señales de EEG? ¿Por qué necesitamos aplicar este tipo de filtro?
-Para EEG normalmente se utiliza un filtro pasa banda (band-pass filter) para conservar el rango de frecuencias de interés y eliminar componentes que están fuera de ese rango. Además, puede utilizarse un filtro notch para reducir la interferencia eléctrica de la red, típicamente alrededor de 50 Hz en Perú.
-¿Por qué? Porque la señal EEG tiene amplitudes muy pequeñas y puede contaminarse fácilmente con: ruido eléctrico de la red, movimiento,actividad muscular,interferencias externas,componentes de frecuencia que no corresponden al EEG que queremos analizar.
+Para EEG se utiliza principalmente un filtro pasa banda (band-pass filter) para conservar el rango de frecuencias de interés y reducir componentes de baja y alta frecuencia que no corresponden a la señal EEG de interés. El filtrado es necesario porque la señal EEG tiene amplitudes muy pequeñas y puede contaminarse fácilmente con ruido eléctrico, movimiento, actividad muscular y otros artefactos. También puede utilizarse un filtro notch para reducir la interferencia de la red eléctrica cuando sea necesario.
 
 c. ¿Puedes influir en la señal de EEG mediante tus pensamientos? ¿Qué acción puedes realizar para activar una banda de frecuencia de tu elección? ¿Pudiste visualizar el cambio en la señal?
 Sí, los estados mentales y las actividades cognitivas pueden modificar la actividad EEG.
@@ -68,42 +67,20 @@ también se resolvió preguntas complejas: la reflexión y resolución de proble
 
 
 d. Muestra una captura de pantalla de una parte relevante de los datos de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?
-La señal EEG corresponde parcialmente con lo esperado. Durante la tarea de apertura y cierre de ojos se observan cambios en la amplitud y en la forma de la señal EEG. 
-En particular, se espera que cerrar los ojos aumente la actividad alfa (8–12 Hz), asociada con un estado de relajación. Sin embargo, el aumento de la actividad alfa no puede confirmarse directamente solo a partir de esta señal en el dominio del tiempo; sería necesario realizar un análisis en frecuencia.
+La señal EEG corresponde parcialmente con lo esperado. Durante la tarea de apertura y cierre de ojos se observan cambios en la amplitud y en la forma de la señal EEG. En particular, se espera que cerrar los ojos aumente la actividad alfa (8–12 Hz), asociada con un estado de relajación. Sin embargo, el aumento de la actividad alfa no puede confirmarse directamente solo a partir de esta señal en el dominio del tiempo; sería necesario realizar un análisis en frecuencia. Solo a partir de esta señal en el dominio del tiempo; sería necesario realizar un análisis en frecuencia.
 <img width="970" height="736" alt="e9758bdb-f587-414c-870d-a882e7695ccc" src="https://github.com/user-attachments/assets/9c4c5677-0895-44be-858d-8ca06ca0cfe6" />
 
 e. ¿Existe alguna diferencia en la señal entre las dos ubicaciones, FP1 y FP2?
-Sí, puede existir una diferencia entre FP1 y FP2, aunque ambos están ubicados en la región frontal.
-Según el sistema 10–20:
-FP1: región frontal izquierda.
-FP2: región frontal derecha.
-Aunque ambos registran actividad frontal, las señales pueden presentar diferencias debido a la actividad cerebral de cada hemisferio, a la posición exacta de los electrodos y a artefactos.
-Además, en su experimento la actividad frontal es particularmente relevante porque está relacionada con planificación, concentración, toma de decisiones y pensamiento activo.
+Puede existir una diferencia entre las señales registradas en FP1 y FP2, aunque ambas ubicaciones se encuentran en la región frontal. Según el sistema internacional 10–20, FP1 corresponde a la región frontal izquierda y FP2 a la región frontal derecha. Las señales pueden presentar diferencias debido a la actividad cerebral de cada hemisferio, la posición de los electrodos y la presencia de artefactos. Sin embargo, para confirmar una diferencia específica entre FP1 y FP2 es necesario comparar directamente las señales registradas en ambas ubicaciones.
 
 f. ¿Qué frecuencias se supone que deben cambiar en las tareas realizadas? ¿Puedes observar los cambios específicos en la señal RAW (señal sin procesar)? Describe lo que observas.
-Apertura y cierre de ojos:
-La frecuencia que esperamos que cambie principalmente es:
-Alpha -> 8-12 Hz
-Con los ojos cerrados, debería aumentar la actividad alpha.
-Beta-> 12-25 Hz 
-y potencialmente:
-Gamma->25 Hz
-porque están relacionadas con actividad mental, concentración y resolución de problemas.
+En la tarea de apertura y cierre de ojos, se espera principalmente un cambio en la banda alpha (8–12 Hz). Al cerrar los ojos, se espera un incremento de la actividad alpha, asociada con un estado de relajación.
+Durante la resolución de preguntas complejas, se esperan cambios principalmente en las bandas beta (12–25 Hz) y gamma (>25 Hz), relacionadas con la actividad mental, concentración y resolución de problemas.
+En la tarea musical, la música relajante puede estar asociada con un estado de relajación y actividad alpha, mientras que una música más estimulante puede generar cambios relacionados con alerta y concentración.
+Sin embargo, estas bandas no pueden identificarse de manera específica solamente observando la señal RAW en el dominio del tiempo, ya que esta contiene una combinación de diferentes frecuencias. Para determinar qué bandas cambiaron, es necesario realizar un análisis en frecuencia, por ejemplo mediante un espectro de potencia.
 
-Música:
-La música relajante puede favorecer estados de relajación asociados con alpha, mientras que una música más estimulante puede producir cambios en la actividad asociada con alerta y concentración.
-¿Y en RAW?
-No necesariamente puedes identificar visualmente una banda específica solamente mirando la señal RAW.
-Por ejemplo, alpha está entre 8–12 Hz, pero la señal RAW contiene una combinación de diferentes componentes. Para identificar claramente qué banda cambió es mucho mejor analizar el espectro de frecuencia o aplicar filtros.
 
 g. Según tu conocimiento, ¿la amplitud del EEG es equivalente al nivel de concentración que has aplicado?
-No directamente. A mayor amplitud no necesariamente tiene que ser mayor concentración. La amplitud del EEG depende de muchos factores y no representa por sí sola el nivel de concentración .
-Por ejemplo, diferentes estados fisiológicos pueden producir cambios en la amplitud, y también pueden aparecer cambios debido a:
-* Movimiento
-* Parpadeo
-* Actividad muscular
-* Posición de electrodos
-* Ruido
-* Sincronización neuronal
+No directamente. Una mayor amplitud del EEG no necesariamente significa un mayor nivel de concentración. La amplitud de la señal puede verse afectada por diferentes factores, como la actividad cerebral, la sincronización neuronal, los movimientos, los parpadeos, la actividad muscular, la posición de los electrodos y el ruido. Por ello, el nivel de concentración no debe evaluarse únicamente a partir de la amplitud del EEG, sino también considerando los cambios en las diferentes bandas de frecuencia.
 
 
