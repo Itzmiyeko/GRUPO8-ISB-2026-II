@@ -55,22 +55,13 @@ No necesariamente son iguales en todas las áreas del cerebro. La actividad EEG 
 
 b. ¿Qué tipo de filtro es esencial al trabajar con señales de EEG? ¿Por qué necesitamos aplicar este tipo de filtro?
 Para EEG normalmente se utiliza un filtro pasa banda (band-pass filter) para conservar el rango de frecuencias de interés y eliminar componentes que están fuera de ese rango. Además, puede utilizarse un filtro notch para reducir la interferencia eléctrica de la red, típicamente alrededor de 50 Hz en Perú.
-¿Por qué?
-Porque la señal EEG tiene amplitudes muy pequeñas y puede contaminarse fácilmente con:
-ruido eléctrico de la red,
-movimiento,
-actividad muscular,
-interferencias externas,
-componentes de frecuencia que no corresponden al EEG que queremos analizar.
+¿Por qué? Porque la señal EEG tiene amplitudes muy pequeñas y puede contaminarse fácilmente con: ruido eléctrico de la red, movimiento,actividad muscular,interferencias externas,componentes de frecuencia que no corresponden al EEG que queremos analizar.
 
 c. ¿Puedes influir en la señal de EEG mediante tus pensamientos? ¿Qué acción puedes realizar para activar una banda de frecuencia de tu elección? ¿Pudiste visualizar el cambio en la señal?
 Sí, los estados mentales y las actividades cognitivas pueden modificar la actividad EEG.
 Según el experimento que realizamos, una de las formas más claras de provocar un cambio fue:
-Cerrar los ojos
-Al cerrar los ojos, se espera un incremento de la actividad alpha (8–12 Hz), porque esta banda está asociada con relajación y reposo.
-También hicieron:
-Resolver preguntas complejas
-La reflexión y resolución de problemas durante 20–30 segundos implican mayor concentración y actividad cognitiva, por lo que pueden observarse cambios principalmente en las bandas beta y gamma.
+Cerrar los ojos , ya que al cerrar los ojos, se espera un incremento de la actividad alpha (8–12 Hz), porque esta banda está asociada con relajación y reposo.
+también se resolvió preguntas complejas: la reflexión y resolución de problemas durante 20–30 segundos implican mayor concentración y actividad cognitiva, por lo que pueden observarse cambios principalmente en las bandas beta y gamma.
 
 
 d. Muestra una captura de pantalla de una parte relevante de los datos de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?
