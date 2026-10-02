@@ -41,9 +41,9 @@ Se solicitó al evaluado permanecer en un estado de tranquilidad inicial, intent
 
 Ciclos de apertura y cierre de ojos:
 Se le dio la indicación al evaluado de realizar 5 repeticiones alternadas de apertura y cierre de ojos. Cada transición se mantuvo por un lapso de 5 segundos, manteniendo la vista fija en un punto específico de referencia durante los momentos de apertura. Esta prueba clásica busca evidenciar la modulación de las ondas alfa, las cuales suelen incrementarse notablemente al cerrar los ojos y bloquear el estímulo visual.
+Manteniendo al participante con un auricular puesto en un solo oído, se procedió a susurrarle un total de 7  preguntas de alta complejidad analítica. No se le solicitó una respuesta inmediata; por el contrario, se estableció un marco de reflexión de aproximadamente 20 a 30 segundos por pregunta para obligar al cerebro a un proceso de concentración profunda y resolución de problemas (estimulando la actividad en las ondas beta y theta).
 
 ### Preguntas complejas y marco de reflexión:
-Manteniendo al participante con un auricular puesto en un solo oído, se procedió a susurrarle un total de 7  preguntas de alta complejidad analítica. No se le solicitó una respuesta inmediata; por el contrario, se estableció un marco de reflexión de aproximadamente 20 a 30 segundos por pregunta para obligar al cerebro a un proceso de concentración profunda y resolución de problemas (estimulando la actividad en las ondas beta y theta).
 a. ¿Cuáles son las frecuencias significativas para las adquisiciones de EEG? ¿Son las mismas en todas las áreas del cerebro?
 Las principales bandas de frecuencia del EEG son:
 Delta: 0–4 Hz → sueño profundo.
