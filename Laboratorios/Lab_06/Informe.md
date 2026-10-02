@@ -54,6 +54,115 @@ Estímulo musical comparativo (Opcional):
 Como fase complementaria, se expuso al evaluado a escuchar fragmentos musicales de contraste (aproximadamente entre 1 a 1 minuto y medio por género), comparando el impacto neurofisiológico de música relajante de tipo Lo-Fi frente a música más intensa o estridente.
 
 # Resultados
+## Ploteo en la señal de Python de la participante 1
+
+### 1. Lectura Basal
+
+![Emma basal](figuras_Emma_Vivi/Emma_Basal.png)
+
+### 2. Apertura y cierre de ojos
+
+![Emma abre y cierra](figuras_Emma_Vivi/Emma_Abre_y_cierra.png)
+
+### 3. Preguntas complejas
+
+![Emma preguntas complejas](figuras_Emma_Vivi/Emma_Preguntas_complejas.png)
+
+### 4.1. Música suave
+
+![Emma música tranquila](figuras_Emma_Vivi/Emma_Música_tranquila.png)
+
+### 4.2. Música fuerte
+
+![Emma música ruidosa](figuras_Emma_Vivi/Emma_Música_ruidosa.png)
+
+## Ploteo en la señal de Python de la participante 2
+
+### 1. Lectura Basal
+
+![Vivi basal](figuras_Emma_Vivi/Vivi_Basal.png)
+
+### 2. Apertura y cierre de ojos
+
+![Vivi abre y cierra](figuras_Emma_Vivi/Vivi_Abre_y_cierra.png)
+
+### 3. Preguntas complejas
+
+![Vivi preguntas complejas](figuras_Emma_Vivi/Vivi_Preguntas_complejas.png)
+
+### 4.1. Música suave
+
+![Vivi música tranquila](figuras_Emma_Vivi/Vivi_Música_tranquila.png)
+
+### 4.2. Música fuerte
+
+![Vivi música ruidosa](figuras_Emma_Vivi/Vivi_Música_ruidosa.png)
+
+## Comparación de las dos participantes en Python
+
+### 1. Lectura Basal
+
+![Comparación basal Emma y Vivi](figuras_Emma_Vivi/Comparacion_Emma_Vivi_Basal.png)
+
+### 2. Apertura y cierre de ojos
+
+![Comparación abre y cierra Emma y Vivi](figuras_Emma_Vivi/Comparacion_Emma_Vivi_Abre_y_cierra.png)
+
+### 3. Preguntas complejas
+
+![Comparación preguntas complejas Emma y Vivi](figuras_Emma_Vivi/Comparacion_Emma_Vivi_Preguntas_complejas.png)
+
+### 4.1. Música suave
+
+![Comparación música tranquila Emma y Vivi](figuras_Emma_Vivi/Comparacion_Emma_Vivi_Música_tranquila.png)
+
+### 4.2. Música fuerte
+
+![Comparación música ruidosa Emma y Vivi](figuras_Emma_Vivi/Comparacion_Emma_Vivi_Música_ruidosa.png)
+
+## Ploteo en la señal en OpenSignals de la participante 1
+### 1. Lectura Basal
+
+![Emma basal OpenSignals](figuras_Emma_Vivi/emma_basal_1_opensignal.jpeg)
+
+
+### 2. Apertura y cierre de ojos
+
+![Emma abre/cierra OpenSignals](figuras_Emma_Vivi/emma_abreycierra_2_opensignal.jpeg)
+
+### 3. Preguntas complejas
+
+![Emma preguntas OpenSignals](figuras_Emma_Vivi/emma_preguntas_3_opensignal.jpeg)
+
+### 4.1. Música suave
+
+![Emma música suave OpenSignals](figuras_Emma_Vivi/emma_musica_suave_4.1_opensignal.jpeg)
+
+### 4.2. Música fuerte
+
+![Emma música fuerte OpenSignals](figuras_Emma_Vivi/emma_musica_fuerte_4.2_opensignal.jpeg)
+
+## Ploteo en la señal en OpenSignals de la participante 2
+### 1. Lectura Basal
+
+![vivi basal OpenSignals](figuras_Emma_Vivi/vivi_basal_1_opensignal.jpeg)
+
+### 2. Apertura y cierre de ojos
+
+![vivi abre/cierra OpenSignals](figuras_Emma_Vivi/vivi_abreycierra_2_opensignal.jpeg)
+
+### 3. Preguntas complejas
+
+![vivi preguntas OpenSignals](figuras_Emma_Vivi/vivi_preguntas_3_opensignal.jpeg)
+
+### 4.1. Música suave
+
+![vivi música suave OpenSignals](figuras_Emma_Vivi/emma_musica_suave_4.1_opensignal.jpeg)
+
+### 4.2. Música fuerte
+
+![vivi música fuerte OpenSignals](figuras_Emma_Vivi/vivi_musica_fuerte_4.2_opensignal.jpeg)
+
 
 # Resumen y explicación
 Las señales EEG fueron extraídas del módulo BiTalino, los cuales posteriormente de su adquisición, se analizo en Python. Como primer paso se extrae la señal cruda en valores de μV. Posteriormente se crea funciones de filtros para que la señal EEG se pueda observar de manera más nitida las señales y para eliminar también el ruido y las interferencias que contaminan, permitiendo obtener un trazo limpio y fácil de interpretar.
