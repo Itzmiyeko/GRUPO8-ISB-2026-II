@@ -43,7 +43,71 @@ Ciclos de apertura y cierre de ojos:
 Se le dio la indicación al evaluado de realizar 5 repeticiones alternadas de apertura y cierre de ojos. Cada transición se mantuvo por un lapso de 5 segundos, manteniendo la vista fija en un punto específico de referencia durante los momentos de apertura. Esta prueba clásica busca evidenciar la modulación de las ondas alfa, las cuales suelen incrementarse notablemente al cerrar los ojos y bloquear el estímulo visual.
 
 Preguntas complejas y marco de reflexión:
-Manteniendo al participante con un auricular puesto en un solo oído, se procedió a susurrarle un total de 5 preguntas de alta complejidad analítica. No se le solicitó una respuesta inmediata; por el contrario, se estableció un marco de reflexión de aproximadamente 20 a 30 segundos por pregunta para obligar al cerebro a un proceso de concentración profunda y resolución de problemas (estimulando la actividad en las ondas beta y theta).
+Manteniendo al participante con un auricular puesto en un solo oído, se procedió a susurrarle un total de 7  preguntas de alta complejidad analítica. No se le solicitó una respuesta inmediata; por el contrario, se estableció un marco de reflexión de aproximadamente 20 a 30 segundos por pregunta para obligar al cerebro a un proceso de concentración profunda y resolución de problemas (estimulando la actividad en las ondas beta y theta).
+a. ¿Cuáles son las frecuencias significativas para las adquisiciones de EEG? ¿Son las mismas en todas las áreas del cerebro?
+Las principales bandas de frecuencia del EEG son:
+Delta: 0–4 Hz → sueño profundo.
+Theta: 4–8 Hz → somnolencia, memoria y algunos procesos de aprendizaje.
+Alpha: 8–12 Hz → relajación y reposo, especialmente con los ojos cerrados.
+Beta: 12–25 Hz → actividad mental, concentración y resolución de problemas.
+Gamma: >25 Hz → procesos cognitivos de alta demanda y concentración intensa.
+No necesariamente son iguales en todas las áreas del cerebro. La actividad EEG depende de la región cerebral y de la función que se esté realizando. Por ejemplo, la actividad frontal está relacionada con planificación, concentración, toma de decisiones y pensamiento activo, mientras que otras regiones tienen funciones diferentes.
+
+b. ¿Qué tipo de filtro es esencial al trabajar con señales de EEG? ¿Por qué necesitamos aplicar este tipo de filtro?
+Para EEG normalmente se utiliza un filtro pasa banda (band-pass filter) para conservar el rango de frecuencias de interés y eliminar componentes que están fuera de ese rango. Además, puede utilizarse un filtro notch para reducir la interferencia eléctrica de la red, típicamente alrededor de 50 Hz en Perú.
+¿Por qué?
+Porque la señal EEG tiene amplitudes muy pequeñas y puede contaminarse fácilmente con:
+ruido eléctrico de la red,
+movimiento,
+actividad muscular,
+interferencias externas,
+componentes de frecuencia que no corresponden al EEG que queremos analizar.
+
+c. ¿Puedes influir en la señal de EEG mediante tus pensamientos? ¿Qué acción puedes realizar para activar una banda de frecuencia de tu elección? ¿Pudiste visualizar el cambio en la señal?
+Sí, los estados mentales y las actividades cognitivas pueden modificar la actividad EEG.
+Según el experimento que realizamos, una de las formas más claras de provocar un cambio fue:
+Cerrar los ojos
+Al cerrar los ojos, se espera un incremento de la actividad alpha (8–12 Hz), porque esta banda está asociada con relajación y reposo.
+También hicieron:
+Resolver preguntas complejas
+La reflexión y resolución de problemas durante 20–30 segundos implican mayor concentración y actividad cognitiva, por lo que pueden observarse cambios principalmente en las bandas beta y gamma.
+
+
+d. Muestra una captura de pantalla de una parte relevante de los datos de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?
+
+e. ¿Existe alguna diferencia en la señal entre las dos ubicaciones, FP1 y FP2?
+Sí, puede existir una diferencia entre FP1 y FP2, aunque ambos están ubicados en la región frontal.
+Según el sistema 10–20:
+FP1: región frontal izquierda.
+FP2: región frontal derecha.
+Aunque ambos registran actividad frontal, las señales pueden presentar diferencias debido a la actividad cerebral de cada hemisferio, a la posición exacta de los electrodos y a artefactos.
+Además, en su experimento la actividad frontal es particularmente relevante porque está relacionada con planificación, concentración, toma de decisiones y pensamiento activo.
+
+f. ¿Qué frecuencias se supone que deben cambiar en las tareas realizadas? ¿Puedes observar los cambios específicos en la señal RAW (señal sin procesar)? Describe lo que observas.
+Apertura y cierre de ojos:
+La frecuencia que esperamos que cambie principalmente es:
+Alpha -> 8-12 Hz
+Con los ojos cerrados, debería aumentar la actividad alpha.
+Beta-> 12-25 Hz 
+y potencialmente:
+Gamma->25 Hz
+porque están relacionadas con actividad mental, concentración y resolución de problemas.
+
+Música:
+La música relajante puede favorecer estados de relajación asociados con alpha, mientras que una música más estimulante puede producir cambios en la actividad asociada con alerta y concentración.
+¿Y en RAW?
+No necesariamente puedes identificar visualmente una banda específica solamente mirando la señal RAW.
+Por ejemplo, alpha está entre 8–12 Hz, pero la señal RAW contiene una combinación de diferentes componentes. Para identificar claramente qué banda cambió es mucho mejor analizar el espectro de frecuencia o aplicar filtros.
+
+g. Según tu conocimiento, ¿la amplitud del EEG es equivalente al nivel de concentración que has aplicado?
+No directamente. A mayor amplitud no necesariamente tiene que ser mayor concentración. La amplitud del EEG depende de muchos factores y no representa por sí sola el nivel de concentración .
+Por ejemplo, diferentes estados fisiológicos pueden producir cambios en la amplitud, y también pueden aparecer cambios debido a:
+* Movimiento
+* Parpadeo
+* Actividad muscular
+* Posición de electrodos
+* Ruido
+* Sincronización neuronal
 
 Estímulo musical comparativo (Opcional):
 Como fase complementaria, se expuso al evaluado a escuchar fragmentos musicales de contraste (aproximadamente entre 1 a 1 minuto y medio por género), comparando el impacto neurofisiológico de música relajante de tipo Lo-Fi frente a música más intensa o estridente.
