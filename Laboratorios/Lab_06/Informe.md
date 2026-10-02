@@ -197,6 +197,7 @@ En la condición de susurro de preguntas, que contempla la formulación de cinco
 <img width="989" height="490" alt="preg_emma" src="https://github.com/user-attachments/assets/20bf6297-e235-4246-b9a7-8ca80167838e" />
 
 **- Musica**
+
 Tabla 1: Actividad cerebral en respuesta a diferentes tipos de música en señal EEG Vivi
 | Característica          | Música tranquila | Música fuerte | Interpretación                                         |
 | ----------------------- | :---------------: | :------------: | ------------------------------------------------------ |
