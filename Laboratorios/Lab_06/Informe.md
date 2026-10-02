@@ -197,7 +197,22 @@ En la condición de susurro de preguntas, que contempla la formulación de cinco
 <img width="989" height="490" alt="preg_emma" src="https://github.com/user-attachments/assets/20bf6297-e235-4246-b9a7-8ca80167838e" />
 
 **- Musica**
+Tabla 1: Actividad cerebral en respuesta a diferentes tipos de música en señal EEG Vivi
+| Característica          | Música tranquila | Música fuerte | Interpretación                                         |
+| ----------------------- | :---------------: | :------------: | ------------------------------------------------------ |
+| Delta                   |            ~0.41 |         ~0.36 | Menor proporción de bajas frecuencias en música fuerte |
+| Theta                   |            ~0.14 |         ~0.17 | Ligero incremento en música fuerte                     |
+| Alfa                    |            ~0.08 |         ~0.08 | Cambio pequeño                                         |
+| Beta                    |            ~0.14 |         ~0.15 | Incremento moderado                                    |
+| Gamma                   |            ~0.04 |         ~0.06 | Incremento relativamente marcado                       |
+| 20–30 Hz                |            Menor |         Mayor | Mayor potencia durante música fuerte                   |
+| 30–45 Hz                |             Baja |         Mayor | Posible aumento de activación y/o EMG                  |
+| Cambio respecto a basal |         Moderado |         Mayor | Música fuerte produce mayor desviación del basal       |
 
+![Análisis por Espectro Potencias, Ganancias y Frecuencias](frecuencia_vivi.png)
+
+En base principalmente en la tabla anterior, se puede observar que la música fuerte tiende a aumentar la actividad en las bandas de frecuencia más altas (Beta y Gamma), mientras que la música tranquila mantiene una mayor proporción de bajas frecuencias (Delta). Esto sugiere que la música fuerte podría estar asociada con un estado de mayor activación o alerta, mientras que la música tranquila podría favorecer un estado más relajado.
+Cabe recalcar que se consideró principalmente lo muestreado en las señales EEG Vivi y no las señales EEG Emma debido a una presencia predominante de saturación en lo medido en este último. Por ende, los resultados pueden variar dependiendo de la persona y del contexto en el que se escuche la música: volumen, tempo, ritmo y timbre. Además, es importante tener en cuenta que la interpretación de los datos de EEG puede ser compleja y requiere un análisis más profundo para comprender completamente los efectos de la música en la actividad cerebral. En este caso, un montaje de los electrodos, teniendo la referencia en el gonion (hueso mandibular) hace importante considerar la actividad de los músculos faciales y mandibulares cercanos, ya que podrían influir en las señales registradas (contaminación electromiográfica), especialmente en las bandas de frecuencia más altas. Por lo tanto, se recomienda realizar estudios adicionales con un mayor número de participantes y condiciones controladas para obtener conclusiones más robustas sobre cómo diferentes tipos de música afectan la actividad cerebral medida por EEG.
 
 ### Preguntas complejas y marco de reflexión:
 a. ¿Cuáles son las frecuencias significativas para las adquisiciones de EEG? ¿Son las mismas en todas las áreas del cerebro?
