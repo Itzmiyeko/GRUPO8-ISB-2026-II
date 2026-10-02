@@ -68,6 +68,9 @@ también se resolvió preguntas complejas: la reflexión y resolución de proble
 
 
 d. Muestra una captura de pantalla de una parte relevante de los datos de EEG dentro del experimento propuesto. ¿Esta señal corresponde a lo que esperabas? ¿Por qué?
+La señal EEG corresponde parcialmente con lo esperado. Durante la tarea de apertura y cierre de ojos se observan cambios en la amplitud y en la forma de la señal EEG. 
+En particular, se espera que cerrar los ojos aumente la actividad alfa (8–12 Hz), asociada con un estado de relajación. Sin embargo, el aumento de la actividad alfa no puede confirmarse directamente solo a partir de esta señal en el dominio del tiempo; sería necesario realizar un análisis en frecuencia.
+<img width="970" height="736" alt="e9758bdb-f587-414c-870d-a882e7695ccc" src="https://github.com/user-attachments/assets/9c4c5677-0895-44be-858d-8ca06ca0cfe6" />
 
 e. ¿Existe alguna diferencia en la señal entre las dos ubicaciones, FP1 y FP2?
 Sí, puede existir una diferencia entre FP1 y FP2, aunque ambos están ubicados en la región frontal.
