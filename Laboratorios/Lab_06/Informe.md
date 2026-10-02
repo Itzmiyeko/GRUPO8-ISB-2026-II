@@ -66,28 +66,28 @@ Filtro notch (rechazo de banda) de 60 Hz — para eliminar la interferencia de l
 
 Como se puede observar en el archivo analisis_bitalino_EEG_frecuencia, en la gráfica densidad espectral de potencia existe un artefacto que existe entre 0.5 a 2 Hz, por lo que no consideraremos ese pico, ya que es dato espurio.
 
-***Lectura Basal**
+**- Lectura Basal**
   Se observa en ambas compañeras (Emma y Viviana) una dominancia pronunciada de la banda Delta (0.5-4 Hz), que como mencionamos antes se trata de un posible artefacto, seguida de una caída progresiva y sostenida hacia las bandas de mayor frecuencia, sin picos secundarios de relevancia en Theta, Alfa o Beta.
   En el caso de nuestra compañera Emma, la onda que tiene más predominancia entre **Theta y Alfa**, que podria estar correctamente interpretado ya que se trata de un estado de relajación. Caso contrario, nuestra compañera Viviana presenta una mayor predominancia en Delta, que puede ser producto a un error en la colocación de la tierra o producto de un parpadeo reflejo bajo el antifaz, dado que los electrodos frontales (FP1/FP2) son particularmente sensibles a este tipo de contaminación.
   <img width="2041" height="1573" alt="emma_canal6" src="https://github.com/user-attachments/assets/4d191c7c-4a03-4164-8051-f9dd4d3f0513" />
 
  <img width="2082" height="1573" alt="viviana_canal6" src="https://github.com/user-attachments/assets/31c92170-e08e-48f2-86f7-442bdb954e38" />
 
-***Apertura y cierre de los ojos**
+**- Apertura y cierre de los ojos**
 En la condición de apertura y cierre de ojos, ejecutada mediante cinco repeticiones del ciclo con un intervalo de cinco segundos entre cierre y apertura, y con indicación explícita de fijar la mirada en un punto fijo durante las fases de ojos abiertos, se observa nuevamente una dominancia de la banda Delta en ambas sujetas (0.8 µV²/Hz en Vivi, hasta 19 µV²/Hz en Emma), sin que se distinga un pico diferenciado y sostenido específicamente dentro de la banda Alfa (8 a 12 Hz) que seria indicativo del fenómeno de bloqueo alfa (alpha blocking) característico de esta dinámica. Esta ausencia de un pico Alfa claro es atribuible, en primer lugar, al hecho de que el espectro de Welch promedia la totalidad de la ventana de registro, mezclando las fases de ojos cerrados (donde se esperaría el incremento de Alfa) con las fases de ojos abiertos con fijación visual, diluyendo así cualquier incremento transitorio de esta banda. En segundo lugar, el propio acto de parpadeo y cierre palpebral repetido —que constituye el evento central de esta dinámica— introduce artefactos de amplitud considerable en el rango de baja frecuencia, los cuales probablemente enmascaran el efecto Alfa, más sutil en comparación. Se recomienda, para análisis futuros, segmentar la señal en los cinco ciclos individuales de apertura/cierre y calcular el espectro de cada fase de forma independiente, a fin de aislar con mayor precisión el efecto esperado.
 
 <img width="989" height="490" alt="acc2_emma" src="https://github.com/user-attachments/assets/e7de55ba-421b-4b86-a552-159b857610c1" />
 
 <img width="989" height="490" alt="acc6_vivi" src="https://github.com/user-attachments/assets/6d879bc7-048c-4905-b269-f4f7548f0ae2" />
 
-***Preguntas**
+**- Preguntas**
 En la condición de susurro de preguntas, que contempla la formulación de cinco preguntas complejas sin exigir respuesta inmediata y con un margen de reflexión de 20 a 30 segundos por pregunta, se observan resultados divergentes entre ambas sujetas. En el registro de Viviana en el FP1 (Canal 6) , el espectro exhibe un pico secundario moderado pero identificable alrededor de 19-20 Hz, dentro de la **banda Beta**, que se eleva por encima de la tendencia decreciente general del espectro; este hallazgo es consistente con el estado de procesamiento cognitivo y reflexión interna que caracteriza la mayor parte de la ventana de registro de esta condición. En el registro de Emma en el FP2 (Canal 2), al excluir la banda Delta del análisis, por corresponder esta al artefacto de baja frecuencia ya identificado,  la potencia se concentra de forma predominante en las frecuencias de onda entre **Beta y Gamma** igualmente, sin que se identifique un pico puntual y diferenciado que sobresalga claramente de esta tendencia decreciente. Aunque este cerca de la onda esperada, lo que se esperaba es que haya una predominancia en la onda Gamma ya que se trata de tareas de alto procesamiento cognitivo.
 
 <img width="989" height="490" alt="preguntasc6_vivi" src="https://github.com/user-attachments/assets/c886894b-c6b0-4b49-98cb-96100fd0c1f8" />
 
 <img width="989" height="490" alt="preg_emma" src="https://github.com/user-attachments/assets/20bf6297-e235-4246-b9a7-8ca80167838e" />
 
-***Musica**
+**- Musica**
 
 
 ### Preguntas complejas y marco de reflexión:
